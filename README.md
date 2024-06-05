@@ -2,7 +2,7 @@
 I develope molecular dynamics simulations models of RNA. I am particuarly intestered in studying RNA phase seperation. Currently I am working on simulation of RNA homopolymers in various ionic environments.
 
 ### News
-**05/24/2024:** I presented a poster at the 41st Graduate student symposium at UB: [pdf](https://drive.google.com/file/d/1GEY_9yJBOcc7Qx6MiWgpDtvZaTlL-DG7/view?usp=sharing).\
+**05/24/2024:** I presented a poster at the 41st Graduate student symposium at UB: [pdf](https://drive.google.com/file/d/1GEY_9yJBOcc7Qx6MiWgpDtvZaTlL-DG7/view?usp=sharing). [photo](https://drive.google.com/file/d/1KNsfnzP5AlUeHbdD7W-e3oLzl-rLt-Br/view?usp=drive_link)\
 **03/09/2024:** I passed my PhD qualifying exam and became a PhD candidate! 🥳\
 **12/09/2023:** I publised an review article on the topic of photo-activatable bioorthogonal reagents: [pdf](https://drive.google.com/file/d/1e9xyhD1HEe5vk2GPWd3ROBTLpXKtTDXz/view?usp=sharing).\
 **10/01/2023:** I joined BioSim lab at UB, embarking my journey as a computational chemist!\
