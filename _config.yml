@@ -1,8 +1,8 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
+title:            Hello there!
+#longtitle:
 author:           Peter Zhang
-email:            sighingnow@gmail.com
+email:            hzhang79@buffalo.edu
 description: >
   Build Jekyll site with the GitBook style.
 
