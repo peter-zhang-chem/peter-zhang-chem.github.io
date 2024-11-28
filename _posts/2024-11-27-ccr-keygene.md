@@ -11,7 +11,6 @@ To use the secure shell (SSH) to connect to CCR's login servers, you will need t
 
 Go to your '.ssh' directory on your machine by typing in 'cd .ssh'.
 
-{: .block-tip }
 ```
 ssh-keygen -t ed25519 -C "email@buffalo.edu"
 {: .block-tip }
@@ -20,14 +19,13 @@ The -t option here specify which type of secure key to generate. Ed25519 refers 
 
 Here is an example:
 
-{: ,block-tip }
 ```
 > (base) pz@Peters-MacBook-Pro-9 ~ % ssh-keygen -t ed25519 -C hzhang79@buffalo.edu
 > Generating public/private ed25519 key pair.
 > Enter file in which to save the key (/Users/pz/.ssh/id_ed25519): "ANY_NAME"
 > Enter passphrase (empty for no passphrase)
 > Your public key has been saved in "ANY_NAME".pub
-The key fingerprint is:
+>The key fingerprint is:
 SHA256:sycoqrxsIOLqiexYPnHTVldIN/nV4KDJ6rpJem1XPmk hzhang79@buffalo.edu
 The key's randomart image is:
 +--[ED25519 256]--+
