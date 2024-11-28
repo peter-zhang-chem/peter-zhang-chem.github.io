@@ -1,11 +1,12 @@
 ---
-title: UB CCR 
+title: Biosim lab tips
 author: Peter Zhang
 date: 2024-11-27
 category: Jekyll
 layout: post
-mermaid: true
 ---
+Generate ssh key for UB CCR
+-------------
 
 To use the secure shell (SSH) to connect to CCR's login servers, you will need to generate a new SSH key on your local machin:
 ```
@@ -23,3 +24,4 @@ Here is an example of my CCR account, I have three machine registered:
 
 References:
 [Generate New SSH Key](https://docs.ccr.buffalo.edu/en/latest/hpc/login/#generate-new-ssh-key)
+
