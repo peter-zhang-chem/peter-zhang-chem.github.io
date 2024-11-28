@@ -25,3 +25,22 @@ Here is an example of my CCR account, I have three machine registered:
 References:
 [Generate New SSH Key](https://docs.ccr.buffalo.edu/en/latest/hpc/login/#generate-new-ssh-key)
 
+---
+Login to UB CCR and nevigate to our group folder
+-------------
+Now you have uploaded your public key to CCR and your matching private key in the `.ssh` folder, you can fire up a terminal window and log onto CCR!
+
+```
+ssh -i your-key-name your-username@vortex-future.ccr.buffalo.edu -o ServerAliveInterval=60
+```
+The `-o ServerAliveInterval=60` option sends a keepalive message to the server every 60 seconds, prevent you from disconnected when idel.
+
+> ##### TIP
+>
+> I recommend to add the ssh command to your bash resource file `.bashrc` or `.zshrc` if you are on Mac. Nevigate to the file by typing: `vim ~/.bashrc`, add `alias sshccr=ssh -i your-key-name your-username@vortex-future.ccr.buffalo.edu -o ServerAliveInterval=60'`, then activate it by typing `source ~/.bashrc` or restart the terminal.
+{: .block-tip}
+
+> ##### WARNING
+> 
+> Be sure to not delete or change anything else in your bash resource file.
+{: .block-warning}
