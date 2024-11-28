@@ -1,9 +1,10 @@
 ---
 title: Generate public and private key for UB CCR Login
 author: Peter Zhang
-date: 2021-08-10
+date: 2024-11-27
 category: Jekyll
 layout: post
+mermaid: true
 ---
 
 To use the secure shell (SSH) to connect to CCR's login servers, you will need to generate a new SSH key on your local machine.
