@@ -30,6 +30,7 @@ Login to UB CCR and nevigate to our group folder
 Now you have uploaded your public key to CCR and your matching private key in the `.ssh` folder, you can fire up a terminal window and log onto CCR!
 
 ```
+
 ssh -i your-key-name your-username@vortex-future.ccr.buffalo.edu -o ServerAliveInterval=60
 ```
 The `-o ServerAliveInterval=60` option sends a keepalive message to the server every 60 seconds, prevent you from disconnected when idel.
