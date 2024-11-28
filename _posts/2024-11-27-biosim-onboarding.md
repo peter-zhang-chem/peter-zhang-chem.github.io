@@ -25,7 +25,6 @@ Here is an example of my CCR account, I have three machine registered:
 References:
 [Generate New SSH Key](https://docs.ccr.buffalo.edu/en/latest/hpc/login/#generate-new-ssh-key)
 
----
 Login to UB CCR and nevigate to our group folder
 -------------
 Now you have uploaded your public key to CCR and your matching private key in the `.ssh` folder, you can fire up a terminal window and log onto CCR!
