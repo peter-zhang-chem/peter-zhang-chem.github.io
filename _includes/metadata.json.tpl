@@ -15,7 +15,7 @@
             "fontsettings": {
                 "family": "sans",
                 "size": 2,
-                "theme": "white"
+                "theme": "night"
             },
             "highlight": {},
             "livereload": {},
@@ -40,7 +40,7 @@
             },
         },
         "theme": "default",
-        "author": "Tao He",
+        "author": "Peter Zhang",
         "pdf": {
             "pageNumbers": true,
             "fontSize": 12,
