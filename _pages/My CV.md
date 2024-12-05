@@ -7,7 +7,7 @@ layout: post
 ---
 
 ### Research
-I develope molecular dynamics simulations models of RNA. I am particuarly intestered in studying RNA phase seperation. Currently I am working on simulation of RNA homopolymers in various ionic environments.
+I develope molecular dynamics simulations models of RNA. I am particuarly intestered in studying RNA phase separation. Currently I am working on simulation of RNA homopolymers in various ionic environments.
 
 ### News
 **10/15/2024:** I presented a poster at the NY RNA Symposium in the Finger Lakes and won the outstanding poster award! [pdf](https://drive.google.com/file/d/1iLaYH3_H7i8HqNbu9NrM2_UE06pKGvUJ/view?usp=sharing), [photo](https://drive.google.com/file/d/1Sbxa720aCoKBforXYxYbKNjtxvE-WW5j/view?usp=sharing)\
