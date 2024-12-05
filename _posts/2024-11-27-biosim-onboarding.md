@@ -50,7 +50,7 @@ cd /vscratch/grp-nguyenh
 
 Trajectory Alignment using MD Analysis
 -------------
-There will be times you want to align a trajectory to a reference frame and write it to a file for analysis. This can be useful when calculating values such as root-mean-sqaure-deviation(RMSD), or root-mean-sqaure-fluctuation (RMSF). Here I provide a script to align every frame of a trajectory containing RNA to its center of mass.
+Sometimes, you might need to align a trajectory to a reference frame and save it for analysis. This can come in handy when calculating things like root-mean-sqaure deviation (RMSD) or root-mean-sqaure fluctuation (RMSF). Here, I've shared a script that aligns every frame of an RNA trajectory to its center of mass to make these analyses easier.
 ```
 import os
 import numpy as np
