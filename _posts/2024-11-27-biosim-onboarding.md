@@ -101,16 +101,17 @@ tar -xf la101psx.tar
 ```
 
 3. Open VMD and go to VMD TkConsole:
-    1. Go to la1.0 folder you got from previous step
-    ```
-    cd la1.0
-    source la.tcl
-    ```
-    2. Go to orient folder you got from previous step
-    ```
-    cd orient
-    source orient.tcl
-    ```
+
+Go to la1.0 folder you got from previous step
+```
+cd la1.0
+source la.tcl
+```
+Go to orient folder you got from previous step
+```
+cd orient
+source orient.tcl
+```
 4. I provide the script I have to align the principal axes of my RNA to the z-axis of the box
 
 ```
@@ -148,6 +149,7 @@ for {set i 0} {$i < $num_frames} {incr i} {
 
 # Write the modified trajectory to a new file
 animate write dcd principal-aligned.dcd
+
 ```
 References: [Alignment to principal axes in VMD](https://www.ks.uiuc.edu/Research/vmd/script_library/scripts/orient/)
 
