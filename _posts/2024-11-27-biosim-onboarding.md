@@ -35,7 +35,7 @@ ssh -i your-key-name your-username@vortex-future.ccr.buffalo.edu -o ServerAliveI
 ```
 The `-o ServerAliveInterval=60` option sends a keepalive message to the server every 60 seconds, prevent you from disconnected when idel.
 
->[!TIP]
+> [!TIP]
 >
 > I recommend to add the ssh command to your bash resource file `.bashrc` or `.zshrc` if you are on Mac. Nevigate to the file by typing: `vim ~/.bashrc`, add `alias sshccr=ssh -i your-key-name your-username@vortex-future.ccr.buffalo.edu -o ServerAliveInterval=60'`, then activate it by typing `source ~/.bashrc` or restart the terminal.
 
@@ -43,3 +43,8 @@ The `-o ServerAliveInterval=60` option sends a keepalive message to the server e
 > [!CAUTION]
 > 
 > Be sure to not delete or change anything else in your bash resource file.
+
+
+{% hint style="warning" %}
+**Warning hints** are good for showing important information or non-critical warnings.
+{% endhint %}
