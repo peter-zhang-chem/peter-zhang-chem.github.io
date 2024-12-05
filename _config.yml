@@ -1,10 +1,10 @@
 # Configurations
-title:            Hello there!
+title:            Peter Zhang
 #longtitle:
 author:           Peter Zhang
 email:            hzhang79@buffalo.edu
 description: >
-  Build Jekyll site with the GitBook style.
+  My personal website with computational chemistry tips
 
 version:          1.0
 gitbook_version:  3.2.3
