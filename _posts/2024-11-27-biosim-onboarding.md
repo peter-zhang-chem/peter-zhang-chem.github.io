@@ -92,6 +92,7 @@ For flexible molecules, it can be useful to align the molecule to its principal 
 1. Download: [orient](https://www.ks.uiuc.edu/Research/vmd/script_library/scripts/orient/orient.tar.gz) and [la](https://www.ks.uiuc.edu/Research/vmd/script_library/scripts/orient/la101psx.tar.gz). You will need [la](https://www.ks.uiuc.edu/Research/vmd/script_library/scripts/orient/la101psx.tar.gz), the linear algebra package to run orient.
 
 2. unpack the package:
+
 ```
 gunzip orient.tar.gz
 tar -xf orient.tar
@@ -103,15 +104,19 @@ tar -xf la101psx.tar
 3. Open VMD and go to VMD TkConsole:
 
 Go to la1.0 folder you got from previous step
+
 ```
 cd la1.0
 source la.tcl
+
 ```
 Go to orient folder you got from previous step
+
 ```
 cd orient
 source orient.tcl
 ```
+
 4. I provide the script I have to align the principal axes of my RNA to the z-axis of the box
 
 ```
@@ -151,5 +156,6 @@ for {set i 0} {$i < $num_frames} {incr i} {
 animate write dcd principal-aligned.dcd
 
 ```
+
 References: [Alignment to principal axes in VMD](https://www.ks.uiuc.edu/Research/vmd/script_library/scripts/orient/)
 
