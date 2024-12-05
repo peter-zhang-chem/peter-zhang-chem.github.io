@@ -35,29 +35,50 @@ ssh -i your-key-name your-username@vortex-future.ccr.buffalo.edu -o ServerAliveI
 ```
 The `-o ServerAliveInterval=60` option sends a keepalive message to the server every 60 seconds, prevent you from disconnected when idel.
 
-> [!TIP]
->
-> I recommend to add the ssh command to your bash resource file `.bashrc` or `.zshrc` if you are on Mac. Nevigate to the file by typing: `vim ~/.bashrc`, add `alias sshccr=ssh -i your-key-name your-username@vortex-future.ccr.buffalo.edu -o ServerAliveInterval=60'`, then activate it by typing `source ~/.bashrc` or restart the terminal.
 
-> [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
-
-> [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]  
-> Crucial information necessary for users to succeed.
-
-> [!WARNING]  
-> Critical content demanding immediate user attention due to potential risks.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
-
-
-> [!CAUTION]
-> 
-> Be sure to not delete or change anything else in your bash resource file.
-
-I recommend to add the ssh command to your bash resource file `.bashrc` or `.zshrc` if you are on Mac. Nevigate to the file by typing: `vim ~/.bashrc`, add `alias sshccr=ssh -i your-key-name your-username@vortex-future.ccr.buffalo.edu -o ServerAliveInterval=60'`, then activate it by typing `source ~/.bashrc` or restart the terminal.
+I recommend to add the ssh command to your bash resource file `.bashrc` or `.zshrc` if you are on Mac. Nevigate to the file by typing: `vim ~/.bashrc`, add `alias sshccr=ssh -i your-key-name your-username@vortex-future.ccr.buffalo.edu -o ServerAliveInterval=60'`, then activate it by typing `source ~/.bashrc` or restart the terminal. Be sure to not delete or change anything else in your bash resource file.
 {: #myid .alert .alert-info .p-3 .mx-2 mb-3}
+
+To get to our group project directory:
+```
+cd /projects/academic/nguyenh
+```
+To get to our scratch directory:
+```
+cd /vscratch/grp-nguyenh
+```
+
+Trajectory Alignment using MD Analysis
+-------------
+There will be times you want to align a trajectory to a reference frame and write it to a file for analysis. This can be useful when calculating values such as root-mean-sqaure-deviation(RMSD), or root-mean-sqaure-fluctuation (RMSF). Here I provide a script to align every frame of a trajectory containing RNA to its center of mass.
+```
+import os
+import numpy as np
+import MDAnalysis as mda
+from MDAnalysis import transformations as trans
+from MDAnalysis.analysis import align
+
+def align_COM(directory, pdb, dcd)
+    os.chdir(directory)
+    
+    # Create an Universe with the trajectory(dcd) and topology file(pdb)
+    u = mda.Universe(pdb, dcd)
+    
+    # Define your box size (here all edge is 720 angstrom with 90 degree angles)
+    dim = np.array([720, 720, 720, 90, 90, 90])
+    
+    # Select the molecule you want to align (I am working with RNA, so Adenine in my case, you can print out your selection to see if you are selecting your intended molecule)
+    ADE = u.select_atoms('resname ADE')
+
+    # Define your workflow, here I set my box dimension, unwrap all atoms, center ADE's (I defined earlier) center of mass to the center of box, then I wrap all the atoms.
+    workflow = [trans.boxdimensions.set_dimensions(dim),
+                trans.unwrap(u.atoms),
+                trans.center_in_box(ADE, center='mass'),
+                trans.wrap(u.atoms)]
+    
+    # use add_transformations to apply the workflow you defined earlier to the trajectory
+    u.trajectory.add_transformations(*workflow)
+
+    # now your trajectory is aligned, to save it I use the align.AlignTraj function. Here I save my new trajectory as "md-align-wrap.dcd" 
+    align.AlignTraj(u, u, select='resname ADE', filename="md-align-wrap.dcd", match_atoms=True).run()
+```
