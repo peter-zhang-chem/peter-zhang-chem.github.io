@@ -9,7 +9,7 @@ Generate ssh key for UB CCR
 -------------
 
 To use the secure shell (SSH) to connect to CCR's login servers, you will need to generate a new SSH key on your local machin:
-```
+```bash
 ssh-keygen -t ed25519 -C "email@buffalo.edu"
 ```
 The `-t` option specifies which type of secure key to generate. `Ed25519` refers to speicifc elliptic curve algorithm that you can read more about [here](https://ed25519.cr.yp.to/). The `-C` option expects you to add an comment to the key, here you should put your Buffalo email address.
@@ -29,7 +29,7 @@ Login to UB CCR and nevigate to our group folder
 -------------
 Now you have uploaded your public key to CCR and your matching private key in the `.ssh` folder, you can fire up a terminal window and log onto CCR!
 
-```
+```bash
 
 ssh -i your-key-name your-username@vortex-future.ccr.buffalo.edu -o ServerAliveInterval=60
 ```
@@ -40,18 +40,18 @@ I recommend to add the ssh command to your bash resource file `.bashrc` or `.zsh
 {: #myid .alert .alert-info .p-3 .mx-2 mb-3}
 
 To get to our group project directory:
-```
+```bash
 cd /projects/academic/nguyenh
 ```
 To get to our scratch directory:
-```
+```bash
 cd /vscratch/grp-nguyenh
 ```
 
 Trajectory Alignment using MD Analysis
 -------------
 Sometimes, you might need to align a trajectory to a reference frame and save it for analysis. This can come in handy when calculating things like root-mean-sqaure deviation (RMSD) or root-mean-sqaure fluctuation (RMSF). Here, I've shared a script that aligns every frame of an RNA trajectory to its center of mass to make these analyses easier.
-```
+```python
 import os
 import numpy as np
 import MDAnalysis as mda
@@ -82,6 +82,7 @@ def align_COM(directory, pdb, dcd)
     # now your trajectory is aligned, to save it I use the align.AlignTraj function. Here I save my new trajectory as "md-align-wrap.dcd" 
     align.AlignTraj(u, u, select='resname ADE', filename="md-align-wrap.dcd", match_atoms=True).run()
 ```
+
 References:
 [Aligning a trajectory to a reference](https://userguide.mdanalysis.org/stable/examples/analysis/alignment_and_rms/aligning_trajectory.html), [On-the-fly transformations](https://userguide.mdanalysis.org/stable/trajectories/transformations.html), [Centering a trajectory in the box](https://userguide.mdanalysis.org/stable/examples/transformations/center_protein_in_box.html#Doing-all-this-on-the-fly)
 
@@ -93,7 +94,7 @@ For flexible molecules, it can be useful to align the molecule to its principal 
 
 2. unpack the package:
 
-```
+```bash
 gunzip orient.tar.gz
 tar -xf orient.tar
 
@@ -105,21 +106,21 @@ tar -xf la101psx.tar
 
 Go to la1.0 folder you got from previous step
 
-```
+```bash
 cd la1.0
 source la.tcl
 
 ```
 Go to orient folder you got from previous step
 
-```
+``` bash
 cd orient
 source orient.tcl
 ```
 
 4. I provide the script I have to align the principal axes of my RNA to the z-axis of the box
 
-```
+```bash
 namespace import Orient::orient
 # Get the number of frames in the trajectory
 set num_frames [molinfo top get numframes]
