@@ -44,4 +44,5 @@ The `-o ServerAliveInterval=60` option sends a keepalive message to the server e
 > 
 > Be sure to not delete or change anything else in your bash resource file.
 
-{% include note.html content="This is my note. All the content I type here is treated as a single paragraph. <br/><br/> Now I'm typing on a  new line." %}
+A simple info alert **check it out!**
+{: #myid .alert .alert-info .p-3 .mx-2 mb-3}
