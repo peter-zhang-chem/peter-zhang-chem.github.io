@@ -44,7 +44,4 @@ The `-o ServerAliveInterval=60` option sends a keepalive message to the server e
 > 
 > Be sure to not delete or change anything else in your bash resource file.
 
-
-{% hint style="warning" %}
-**Warning hints** are good for showing important information or non-critical warnings.
-{% endhint %}
+{% include note.html content="This is my note. All the content I type here is treated as a single paragraph. <br/><br/> Now I'm typing on a  new line." %}
