@@ -163,7 +163,7 @@ References: [Alignment to principal axes in VMD](https://www.ks.uiuc.edu/Researc
 Tips for using Arena to map coarse-grained structure to atomistic structures
 -------------
 
-The coarse-grained structures can be backmapped to the cooresponding atomistic structures with Arena. There are many ways you can use this program to fit your needs, here I provide some of my scripts and procedures for you to use as a guidance.
+The coarse-grained structures can be backmapped to the corresponding atomistic structures with Arena. There are many ways you can use this program to fit your needs, here I provide some of my scripts and procedures for you to use as a guidance.
 
 I extracted 10,000 random-frames from my coarse-grained simulations with the script below - my goal was to eventually calculate 10,000 SAXS profiles to get the ensemble average.
 
