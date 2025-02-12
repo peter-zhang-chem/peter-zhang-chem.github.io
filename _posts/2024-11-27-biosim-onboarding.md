@@ -160,7 +160,7 @@ animate write dcd principal-aligned.dcd
 
 References: [Alignment to principal axes in VMD](https://www.ks.uiuc.edu/Research/vmd/script_library/scripts/orient/)
 
-Tips for using Arena to map coarse-grained structure to atomistic structures
+Tips for using Arena to map coarse-grained structures to atomistic structures
 -------------
 
 The coarse-grained structures can be backmapped to the corresponding atomistic structures with Arena. There are many ways you can use this program to fit your needs, here I provide some of my scripts and procedures for you to use as a guidance.
