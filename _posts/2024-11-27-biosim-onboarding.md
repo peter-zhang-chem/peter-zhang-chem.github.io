@@ -160,3 +160,192 @@ animate write dcd principal-aligned.dcd
 
 References: [Alignment to principal axes in VMD](https://www.ks.uiuc.edu/Research/vmd/script_library/scripts/orient/)
 
+Tips for using Arena to map coarse-grained structure to atomistic structures
+-------------
+
+The coarse-grained structures can be backmapped to the cooresponding atomistic structures with Arena. There are many ways you can use this program to fit your needs, here I provide some of my scripts and procedures for you to use as a guidance.
+
+I extracted 10,000 random-frames from my coarse-grained simulations with the script below - my goal was to eventually calculate 10,000 SAXS profiles to get the ensemble average.
+
+```bash
+# writen by Peter Zhang - 09/18/2024
+
+# Load the required packages
+package require pbctools
+package require topotools
+package require Tcl
+
+# Define trajectory and output directory
+set traj "/home/pz/remote/RNA-homopolymers/rA30/experiment-comparison/Na20/Mg2/rA30-4-1/md-align-wrap.dcd"
+set output_dir "/home/pz/Projects/SAXS-calculation-homopolymer/rA30-2mM-calculation/cg-10000-frames"
+
+# Load the trajectory
+mol new /home/pz/remote/RNA-homopolymers/rA30/experiment-comparison/Na20/Mg2/rA30-4-1/rA30-Mg2-Na20-1.pdb type pdb
+mol addfile $traj type dcd waitfor all first 3000 last -1
+
+# Get the total number of frames in the traj
+set num_frames [molinfo top get numframes]
+
+# Set the number of random frames to select
+set num_random_frames 10000
+
+# Initialize a list to store the selected frames
+set selected_frames {}
+
+# Ensure that the number of requested frames does not exceed the total number of frames
+if {$num_random_frames > $num_frames} {
+    set num_random_frames $num_frames
+}
+
+# Randomly select frames without replacement
+for {set i 0} {$i < $num_random_frames} {incr i} {
+    set frame [expr {int(rand() * $num_frames)}]
+    
+    # Ensure no duplicate frames are selected
+    while {[lsearch -exact $selected_frames $frame] != -1} {
+        set frame [expr {int(rand() * $num_frames)}]
+    }
+    lappend selected_frames $frame
+}
+
+# Export each selected frame as a PDB file with a unique name
+foreach frame $selected_frames {
+    # Set the current frame
+    molinfo top set frame $frame
+
+    set sel [atomselect top "all not name Mg"]
+
+    # Define the output file name
+    set output_file [format "%s/frame_%05d.pdb" $output_dir $frame]
+
+    # Write the selected atoms to the PDB file
+    $sel writepdb $output_file
+
+    # Delete the atom selection to free up memory
+    $sel delete
+}
+
+puts "Completed exporting to $output_dir"
+
+```
+Arena will only recognize standard RNA atom naming system (P, OP1, OP2, O5', C5', C4', O4', C3', O3', C2', O2', C1', N9, C8, N7, C5, C6, N6, N1, C2, N3, C4) - so if you named your coarse-grained beads differently, you need to change the bead name. For my three bead system, I chose to map the phosphate bead to the phosphate atom (P), the sugar bead to C2', the nucleobase to C4. If you also named your residue differently in the coarse-grained pdb file, you should change them to the one letter code (A, U, C, or G).
+
+The naming change can be done using the stream editor (sed) from your terminal, below is an example:
+
+```bash
+sed -i 's/\(P___\)ADE/\|_____A/' *.pdb
+```
+If after those changes, Arena cannot recognize your naming, make sure to check the spacing.
+
+Now, once you input those coarse-grained structures and have the output from Arena. You can load them to vmd to visualize them. And you will likely see "bad bonds", they are either too long or they are merged with some other atoms. To correct those "bad bonds", we will need to perform an energy minimization step. I use GROMACS and Amber force field χOL3. Here is the script:
+
+```bash
+#!/bin/bash
+
+# Written by Peter Zhang
+# 07/23/24
+# Referenced from Magdalena A. Jonikas (RNA gromacs tips)
+
+FILE_PATTERN=$1 # pattern to match pdb files
+NP=$2 # number of ions to add
+
+export GMX_MAXBACKUP=-1
+
+for FILENAME in $FILE_PATTERN; do
+    NAME="${FILENAME%.pdb}"
+
+    if [ ! -e $NAME-em-final.pdb ]; then
+        echo "Running $NAME"
+        
+        echo "Checking for needed files"
+        
+        if [ ! -e em.mdp ]; then
+            echo "Missing em.mdp"
+            exit 1
+        fi
+        
+        if [ ! -e $NAME.pdb ]; then
+            echo "Missing $NAME.pdb"
+            exit 1
+        fi
+        
+        echo "Fixing the pdb file syntax"
+        if head -n 3 $NAME.pdb | grep -E '(P|OP1|OP2)' > /dev/null; then
+            echo "Deleting the first three lines of $NAME.pdb"
+            sed -i '1,3d' $NAME.pdb
+        fi
+        
+        echo "Making topology file from pdb file"
+        gmx pdb2gmx -f $NAME.pdb -p $NAME.top -o $NAME.gro -ff amber03 -water tip3p -ignh >& out-pdb2gmx-$NAME.txt
+        
+        if [ ! -e $NAME.gro ]; then
+            echo "FAIL: pdb2gmx"
+            exit 1
+        fi
+        
+        echo "Making box and adding water"
+        gmx editconf -f $NAME.gro -o -d 2.0
+        gmx solvate -cp out.gro -cs spc216.gro -p $NAME.top -o $NAME-solv.gro >& genbox-solvate-$NAME.txt
+        
+        if [ ! -e $NAME-solv.gro ]; then
+            echo "FAIL: editconf or solvate"
+            exit 1
+        fi
+        
+        echo "Performing first energy minimization"
+        gmx grompp -v -f em.mdp -c $NAME-solv.gro -o $NAME-em -p $NAME.top -maxwarn 10 >& grompp-em-$NAME.txt
+        
+        if [ ! -e $NAME-em.tpr ]; then
+            echo "FAIL: grompp em"
+            exit 1
+        fi
+        
+        gmx mdrun -v -s $NAME-em -o $NAME-em -g $NAME-emlog >& out-mdrun-em-$NAME.txt
+        
+        if [ ! -e $NAME-em.trr ]; then
+            echo "FAIL: mdrun em"
+            exit 1
+        fi
+        
+        # Add ions (30 for homopolymers with 30 nucleotides)
+        echo "Adding ions"
+        echo 3 | gmx genion -s $NAME-em.tpr -o $NAME-ion -p $NAME.top -np $NP >& out-genion-$NAME.txt
+        
+        if [ ! -e $NAME-ion.gro ]; then
+            echo "FAIL: genion"
+            exit 1
+        fi
+        
+        echo "Performing final energy minimization"
+        gmx grompp -v -f em.mdp -o $NAME-em-final -c $NAME-ion.gro -p $NAME.top -maxwarn 10
+        
+        if [ ! -e $NAME-em-final.tpr ]; then
+            echo "FAIL: grompp em-final"
+            exit 1
+        fi
+        
+        gmx mdrun -v -s $NAME-em-final -o $NAME-em-final
+        
+        if [ ! -e $NAME-em-final.trr ]; then
+            echo "FAIL: mdrun em-final"
+            exit 1
+        fi
+        
+        echo "Converting trajectory to pdb"
+        
+        echo 1 | gmx trjconv -f $NAME-em-final.trr -s $NAME-em-final.tpr -o $NAME-em-final.pdb >& out-convert-$NAME.txt
+        
+        if [ ! -e $NAME-em-final.pdb ]; then
+            echo "FAIL: em convert"
+            exit 1
+        fi
+        
+        echo "Completed processing $NAME"
+    fi
+done
+```
+For additional details, please check out these references:
+
+1. [Magdalena A. Jonikas's RNA GROMACS Tips](https://drive.google.com/file/d/1I9e_1HUPlsLtWxT6ouKrEb0u6ycZ9sda/view?usp=sharing)
+2. [Arena Github](https://github.com/pylelab/Arena).
+3. [χOL3 force field](https://fch.upol.cz/ff_ol/)
