@@ -1,13 +1,11 @@
-<<<<<<< HEAD
 ---
 title: News
 author: Peter Zhang
-date: 2025-02-20
+date: 2022-02-04
 category: Jekyll
 layout: post
 ---
-=======
->>>>>>> b1e70972919550836fe6626d8669bc5cb46f3704
+
 ### News
 **02/19/2025:** I attended the 2025 Biophysical Society Meeting in Los Angeles and presented two poster. There were a lot of great science, I really enjoyed my time!\
 **01/30/2025:** I accepted an internship position on the Platform Chemistry team at Enveda Biosciences! I can't wait to start in May at their beautiful campus in Boulder, Colorado!\
