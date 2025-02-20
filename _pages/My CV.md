@@ -5,17 +5,18 @@ date: 2022-02-04
 category: Jekyll
 layout: post
 ---
+### Work Experience
+* __Platform Chemistry Intern__, Enveda Biosciences, Boulder, CO _(May 2025 - August 2025)_
+* __Graduate Research__, Department of Chemistry, University at Buffalo, Buffalo, NY _(Sep 2023 - July 2024)_
+    - Development of coarse-grained model of RNA with explicit divalent ions.
+    - Coarse-grained simulations of ssRNA and RNA condensates.
+* __Graduate Research__, Department of Chemical Engineering, University at Buffalo, Buffalo, NY _(Jan 2024 - May 2024)_
+    - Atomistic Simulation of ABCB1 Transmembrane Protein.
+* __Graduate Research__, Department of Chemistry, University at Buffalo, Buffalo, NY _(Aug 2022 - Aug 2023)_
+    - Structural Studies of Bioorthogonal Probes.
 
-### Research
+### Current Research Focus
 I develope molecular dynamics simulations models of RNA. I am particuarly intestered in studying RNA phase separation. Currently I am working on simulation of RNA homopolymers in various ionic environments.
-
-### News
-**10/15/2024:** I presented a poster at the NY RNA Symposium in the Finger Lakes and won the outstanding poster award! [pdf](https://drive.google.com/file/d/1iLaYH3_H7i8HqNbu9NrM2_UE06pKGvUJ/view?usp=sharing), [photo](https://drive.google.com/file/d/1Sbxa720aCoKBforXYxYbKNjtxvE-WW5j/view?usp=sharing)\
-**05/24/2024:** I presented a poster at the 41st Graduate student symposium at UB: [pdf](https://drive.google.com/file/d/1GEY_9yJBOcc7Qx6MiWgpDtvZaTlL-DG7/view?usp=sharing), [photo](https://drive.google.com/file/d/1KNsfnzP5AlUeHbdD7W-e3oLzl-rLt-Br/view?usp=drive_link).\
-**03/09/2024:** I passed my PhD qualifying exam and became a PhD candidate! 🥳\
-**12/09/2023:** I publised an review article on the topic of photo-activatable bioorthogonal reagents: [pdf](https://drive.google.com/file/d/1e9xyhD1HEe5vk2GPWd3ROBTLpXKtTDXz/view?usp=sharing).\
-**10/01/2023:** I joined BioSim lab at UB, embarking my journey as a computational chemist!\
-**04/27/2023:** Our work on a new bioorthogonal ligation reaction was published in JACS: [pdf](https://drive.google.com/file/d/1qe-B7CSS1OjKJw6gRGrmKajED_MZ5fLJ/view?usp=sharing).
 
 ### Education
 * Ph.D., Computational Chemistry, State University of New York at Buffalo (Expected May 2026)
@@ -29,13 +30,15 @@ I develope molecular dynamics simulations models of RNA. I am particuarly intest
 
 (3) Fang, M.; Kumar, G. S.; Racioppi, S.; **Zhang, H.**; Rabb, J. D.; Zurek, E.; Lin, Q. Hydrazonyl Sultones as Stable Tautomers of Highly Reactive Nitrile Imines for Fast Bioorthogonal Ligation Reaction. J. Am. Chem. Soc. 2023, 145 (18), 9959–9964. [pdf](https://drive.google.com/file/d/1qe-B7CSS1OjKJw6gRGrmKajED_MZ5fLJ/view?usp=sharing)
 
-### Poster presentations
-* 2024 New York RNA Symposium: [pdf](https://drive.google.com/file/d/1iLaYH3_H7i8HqNbu9NrM2_UE06pKGvUJ/view?usp=sharing) (Outstanding Poster).
-* 41st Graduate student symposium at SUNY Buffalo: [pdf](https://drive.google.com/file/d/1GEY_9yJBOcc7Qx6MiWgpDtvZaTlL-DG7/view?usp=sharing)
+### Presentations
+* University at Buffalo RNA Club (03/10/2025)
+* 2025 Biophysical Society Meeting (02/19/2025)
+* 2024 New York RNA Symposium (10/14/2024): [pdf](https://drive.google.com/file/d/1iLaYH3_H7i8HqNbu9NrM2_UE06pKGvUJ/view?usp=sharing) (Outstanding Poster).
+* 41st Graduate student symposium at SUNY Buffalo (05/22/2024): [pdf](https://drive.google.com/file/d/1GEY_9yJBOcc7Qx6MiWgpDtvZaTlL-DG7/view?usp=sharing)
 
 ### Teaching
+* Computational Chemistry (Spring 2025)
 * Organic Chemistry (Spring 2024)
 * Physical Chemistry for Life Sciences (Spring 2022, Spring 2023, Fall 2024)
 * Honors Organic Chemistry (Fall 2022)
 * General Chemistry (Fall 2021)
-
