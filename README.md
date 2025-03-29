@@ -7,5 +7,5 @@ This summer, I will be joining the **Platform Chemistry team at Enveda Bioscienc
 Feel free to connect with me on [Linkedin](https://www.linkedin.com/in/hepzh/) or explore my projects on [Github](https://github.com/peter-zhang-chem).
 
 <p align="center">
-  <img src="Poster.JPEG" alt="Photo 1" width="300">
+  <img src="Poster.JPEG" alt="Photo 1" width="500">
 </p>
