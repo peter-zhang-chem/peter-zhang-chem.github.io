@@ -21,7 +21,7 @@ toc:
   h_max:   3
 
 # customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
-favicon_path:     /assets/gitbook/images/favicon.ico
+favicon_path:     /assets/gitbook/images/2316128.png
 
 # markdown render engine.
 markdown:         kramdown
@@ -35,7 +35,7 @@ kramdown:
   syntax_highlighter_opts:
     guess_lang:           true
 
-syntax_highlighter_style: colorful
+syntax_highlighter_style: github
 
 markdown_ext:             markdown,mkdown,mkdn,mkd,md
 
@@ -57,8 +57,8 @@ collections:
     permalink: /:collection/:path/
 
 ordered_collections:
-  - posts
   - pages
+  - posts
   - others
 
 page_width: 800px

@@ -7,15 +7,17 @@ layout: post
 ---
 ### Work Experience
 * __Enveda Biosciences__, Platform Chemistry Intern, (Summer 2025)
-* __XSig/Cross-Disciplinary Science Institute at Gettysburg College__, Biophyiscs and biochemistry research, (Summer 2018 and 2019)
+* __XSig/Cross-Disciplinary Science Institute at Gettysburg College__, Biophysics and Biochemistry Research, (Summer 2018 and 2019)
 
 ### Education and Experience
-* Ph.D., Computational Chemistry, State University of New York at Buffalo (Expected May 2026)
+* __State University of New York at Buffalo__, Buffalo, NY. (Expected May 2026)
+    - Ph.D. Computational Chemistry, Bio Simulation Lab
     - Advisor: Hung T. Nguyen
-* B.S., Biochemistry and Molecular Biology, Gettysburg College (2021, with honors)
+
+* __Gettysburg College__, Gettysburg, PA. (2017-2021) 
+    - B.S. Biochemistry and Molecular Biology
     - Advisor: Tim Funk
     - Thesis: "Synthesis of cyanuric chloride-based synthetic lipids"
-* H.S., Southwestern Academy, San Marino, CA (2017, Valedictorian) 
 
 ### Publications
 (1) **Zhang, H.**; Maity, H.; Nguyen T. H. Ion-Dependent Structural Ensemble of Single-Stranded RNA Homopolymers: Effect of Temperature and Magnesium Concentration from Coarse-Grained Simulations. (Manuscript in preparation)
