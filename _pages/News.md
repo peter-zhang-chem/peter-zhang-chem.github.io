@@ -6,6 +6,7 @@ category: Jekyll
 layout: post
 ---
 ## 2025
+**04/29/2025:** Received the Academic Excellence Award from SUNY Buffalo, and presented at the student showcase. \
 **04/03/2025:** Invited as a guest lecturer for CE530 (Molecular Modeling) by Dr. Monje to present the fundamentals of coarse-grained biomolecular simulations and applications to RNA systems. \
 **03/10/2025:** Presented at the Buffalo RNA Club, fulfilling my fourth-year talk requirement for my PhD program and marking one step closer to completing my doctoral degree. \
 **02/19/2025:** Attended the 2025 Biophysical Society Meeting in Los Angeles and presented two poster. There were a lot of great science, I really enjoyed my time!\
