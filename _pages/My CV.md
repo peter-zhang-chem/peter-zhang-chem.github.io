@@ -20,11 +20,13 @@ layout: post
     - Thesis: "Synthesis of cyanuric chloride-based synthetic lipids"
 
 ### Publications
-(1) **Zhang, H.**; Maity, H.; Nguyen T. H. Ion-Dependent Structural Ensemble of Single-Stranded RNA Homopolymers: Effect of Temperature and Magnesium Concentration from Coarse-Grained Simulations. (Manuscript in preparation)
+(1) **Zhang, H.**; Maity, H.; Nguyen T. H. Thermal-induced collapse of single-stranded RNA: the roles of counterions and RNA structural ensemble. (Manuscript in preparation)
 
-(2) **Zhang, H.**; Fang, M.; Lin, Q. Photo-Activatable Reagents for Bioorthogonal Ligation Reactions. _Top Curr Chem (Z)_ 2023, 382 (1), 1. [pdf](https://drive.google.com/file/d/1e9xyhD1HEe5vk2GPWd3ROBTLpXKtTDXz/view?usp=sharing)
+(2) Maity, H.; **Zhang, H.**; Thirumalai, D.; Nguyen, H. T. RNA Structural Complexity Dictates Its Ion Atmosphere. _J. Phys. Chem. Lett._ 2025, 8393–8402. [pdf](https://drive.google.com/file/d/17H6vTtfJtpK7yu5TmXCpsvv7cPRlby3J/view?usp=sharing)
 
-(3) Fang, M.; Kumar, G. S.; Racioppi, S.; **Zhang, H.**; Rabb, J. D.; Zurek, E.; Lin, Q. Hydrazonyl Sultones as Stable Tautomers of Highly Reactive Nitrile Imines for Fast Bioorthogonal Ligation Reaction. _J. Am. Chem. Soc._ 2023, 145 (18), 9959–9964. [pdf](https://drive.google.com/file/d/1qe-B7CSS1OjKJw6gRGrmKajED_MZ5fLJ/view?usp=sharing)
+(3) **Zhang, H.**; Fang, M.; Lin, Q. Photo-Activatable Reagents for Bioorthogonal Ligation Reactions. _Top Curr Chem (Z)_ 2023, 382 (1), 1. [pdf](https://drive.google.com/file/d/1e9xyhD1HEe5vk2GPWd3ROBTLpXKtTDXz/view?usp=sharing)
+
+(4) Fang, M.; Kumar, G. S.; Racioppi, S.; **Zhang, H.**; Rabb, J. D.; Zurek, E.; Lin, Q. Hydrazonyl Sultones as Stable Tautomers of Highly Reactive Nitrile Imines for Fast Bioorthogonal Ligation Reaction. _J. Am. Chem. Soc._ 2023, 145 (18), 9959–9964. [pdf](https://drive.google.com/file/d/1qe-B7CSS1OjKJw6gRGrmKajED_MZ5fLJ/view?usp=sharing)
 
 ### Presentations
 * Invited guest lecturer by Dr. Viviana Monje on MD simulation (04/03/2025)
@@ -38,7 +40,7 @@ layout: post
 * Organic Chemistry (Spring 2024)
 * Physical Chemistry for Life Sciences (Spring 2022, Spring 2023, Fall 2024)
 * Honors Organic Chemistry (Fall 2022)
-* General Chemistry (Fall 2021)
+* General Chemistry (Fall 2021, Fall 2025)
 
 ### Awards
 * Academic Excellence Award, State University of New York (Spring 2025)

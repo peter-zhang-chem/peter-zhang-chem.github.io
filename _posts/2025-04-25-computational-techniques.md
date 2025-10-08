@@ -6,3 +6,5 @@ category: Jekyll
 layout: post
 ---
 [Ewald Summation](https://www.canva.com/design/DAGkSIKwVjg/Wd6AeaWvGHSoTCZplN06lw/view?utm_content=DAGkSIKwVjg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hffcdbe6ec6)
+
+[Free Energy Perturbation (Schrodinger)](https://cool-bacon-d94.notion.site/Schr-dinger-FEP-Course-274ba21bfb6b8080ac78d780dc012843)

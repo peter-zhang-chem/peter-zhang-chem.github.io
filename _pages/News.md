@@ -6,6 +6,10 @@ category: Jekyll
 layout: post
 ---
 ## 2025
+**08/18/2025:** Completed my summer internship at Enveda 🏔️. \
+**08/07/2025:** Our work on how RNA structural complexity change its ion atmosphere was published in [J Phys Chem Lett](https://pubs.acs.org/doi/10.1021/acs.jpclett.5c01656)! [pdf](https://drive.google.com/file/d/17H6vTtfJtpK7yu5TmXCpsvv7cPRlby3J/view?usp=sharing)\
+**07/18/2025:** Won summer hackathon project at Enveda! We hacked a novel fragmentation scheduler to solve the overfragmentation problem with timsTOF. \
+**05/12/2025:** Started my summer internship on the Platform Chemistry team at Enveda.
 **04/29/2025:** Received the Academic Excellence Award from SUNY Buffalo, and presented at the student showcase. \
 **04/03/2025:** Invited as a guest lecturer for CE530 (Molecular Modeling) by Dr. Monje to present the fundamentals of coarse-grained biomolecular simulations and applications to RNA systems. \
 **03/10/2025:** Presented at the Buffalo RNA Club, fulfilling my fourth-year talk requirement for my PhD program and marking one step closer to completing my doctoral degree. \
