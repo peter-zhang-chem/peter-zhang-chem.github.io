@@ -7,7 +7,7 @@ layout: post
 ---
 ### Work Experience
 * __Enveda Biosciences__, Platform Chemistry Intern, (Summer 2025)
-* __XSig/Cross-Disciplinary Science Institute at Gettysburg College__, Biophysics and Biochemistry Research, (Summer 2018 and 2019)
+* __Cross-Disciplinary Science Institute at Gettysburg College__, Biophysics and Biochemistry Research, (Summer 2018 and 2019)
 
 ### Education and Experience
 * __State University of New York at Buffalo__, Buffalo, NY. (Expected May 2026)
@@ -20,7 +20,7 @@ layout: post
     - Thesis: "Synthesis of cyanuric chloride-based synthetic lipids"
 
 ### Publications
-(1) **Zhang, H.**; Maity, H.; Nguyen T. H. Thermal-induced collapse of single-stranded RNA: the roles of counterions and RNA structural ensemble. (Manuscript in preparation)
+(1) **Zhang, H.**; Maity, H.; Nguyen T. H. Temperature-Dependent Ion Migration Underlies Sequence-Specific RNA Collapse. _biorxiv_. [pdf](https://www.biorxiv.org/content/10.1101/2025.10.20.683600v1.full)
 
 (2) Maity, H.; **Zhang, H.**; Thirumalai, D.; Nguyen, H. T. RNA Structural Complexity Dictates Its Ion Atmosphere. _J. Phys. Chem. Lett._ 2025, 8393–8402. [pdf](https://drive.google.com/file/d/17H6vTtfJtpK7yu5TmXCpsvv7cPRlby3J/view?usp=sharing)
 
@@ -29,6 +29,7 @@ layout: post
 (4) Fang, M.; Kumar, G. S.; Racioppi, S.; **Zhang, H.**; Rabb, J. D.; Zurek, E.; Lin, Q. Hydrazonyl Sultones as Stable Tautomers of Highly Reactive Nitrile Imines for Fast Bioorthogonal Ligation Reaction. _J. Am. Chem. Soc._ 2023, 145 (18), 9959–9964. [pdf](https://drive.google.com/file/d/1qe-B7CSS1OjKJw6gRGrmKajED_MZ5fLJ/view?usp=sharing)
 
 ### Presentations
+* 2025 Rustbelt RNA Meeting (10/24/2025)
 * Invited guest lecturer by Dr. Viviana Monje on MD simulation (04/03/2025)
 * University at Buffalo RNA Club (03/10/2025)
 * 2025 Biophysical Society Meeting (02/19/2025)
