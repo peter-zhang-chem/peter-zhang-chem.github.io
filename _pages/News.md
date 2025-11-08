@@ -6,8 +6,8 @@ category: Jekyll
 layout: post
 ---
 ## 2025
-**10/24/2025:** Attended and presented at the Rustbelt RNA Meeting. [photo](https://drive.google.com/file/d/1vh-UElhWjhf3XhUarfkj6j4iSOnGunoq/view?usp=sharing)
-**10/21/2025:** Submitted our paper on temperature-dependent ion migration and sequence-specific collapse of single-stranded RNA. [biorxiv](https://www.biorxiv.org/content/10.1101/2025.10.20.683600v1.full)
+**10/24/2025:** Attended and presented at the Rustbelt RNA Meeting. [photo](https://drive.google.com/file/d/1vh-UElhWjhf3XhUarfkj6j4iSOnGunoq/view?usp=sharing) \
+**10/21/2025:** Submitted our paper on temperature-dependent ion migration and sequence-specific collapse of single-stranded RNA. [biorxiv](https://www.biorxiv.org/content/10.1101/2025.10.20.683600v1.full) \
 **08/18/2025:** Completed my summer internship at Enveda 🏔️. \
 **08/07/2025:** Our work on how RNA structural complexity change its ion atmosphere was published in [J Phys Chem Lett](https://pubs.acs.org/doi/10.1021/acs.jpclett.5c01656)! [pdf](https://drive.google.com/file/d/17H6vTtfJtpK7yu5TmXCpsvv7cPRlby3J/view?usp=sharing)\
 **07/18/2025:** Won summer hackathon project at Enveda! We hacked a novel fragmentation scheduler to solve the overfragmentation problem with timsTOF. \
