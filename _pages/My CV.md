@@ -6,10 +6,13 @@ category: Jekyll
 layout: post
 ---
 ### Work Experience
-* __Enveda Biosciences__, Platform Chemistry Intern, (Summer 2025)
-* __Cross-Disciplinary Science Institute at Gettysburg College__, Biophysics and Biochemistry Research, (Summer 2018 and 2019)
+* __Enveda Biosciences__, Platform Chemistry Intern, (May 2025 to August 2025)
+* __Cross-Disciplinary Science Institute at Gettysburg College__, Summer Research Fellowship, (Summer 2018 and 2019)
+* __Gettysburg College Chemistry__, Research Assistant, (Jan 2018 to May 2021)
+* __Gettysburg College Residential Life Office__, Resident Coordinator, (Sep 2020 to May 2021)
+* __Gettysburg College Residential Life Office__, Resident Assistant, (Sep 2018 to May 2020)
 
-### Education and Experience
+### Education
 * __State University of New York at Buffalo__, Buffalo, NY. (Expected May 2026)
     - Ph.D. Computational Chemistry, Bio Simulation Lab
     - Advisor: Hung T. Nguyen
@@ -29,12 +32,23 @@ layout: post
 (4) Fang, M.; Kumar, G. S.; Racioppi, S.; **Zhang, H.**; Rabb, J. D.; Zurek, E.; Lin, Q. Hydrazonyl Sultones as Stable Tautomers of Highly Reactive Nitrile Imines for Fast Bioorthogonal Ligation Reaction. _J. Am. Chem. Soc._ 2023, 145 (18), 9959–9964. [pdf](https://drive.google.com/file/d/1qe-B7CSS1OjKJw6gRGrmKajED_MZ5fLJ/view?usp=sharing)
 
 ### Presentations
-* 2025 Rustbelt RNA Meeting (10/24/2025)
-* Invited guest lecturer by Dr. Viviana Monje on MD simulation (04/03/2025)
-* University at Buffalo RNA Club (03/10/2025)
-* 2025 Biophysical Society Meeting (02/19/2025)
-* 2024 New York RNA Symposium (10/14/2024): [pdf](https://drive.google.com/file/d/1iLaYH3_H7i8HqNbu9NrM2_UE06pKGvUJ/view?usp=sharing) (Outstanding Poster).
-* 41st Graduate student symposium at SUNY Buffalo (05/22/2024): [pdf](https://drive.google.com/file/d/1GEY_9yJBOcc7Qx6MiWgpDtvZaTlL-DG7/view?usp=sharing)
+* **Zhang, H.**; Nguyen, H.T. *Coarse-grained Simulation of ssRNA.* **Oral Presentation.** MDAnalysis UGM, Tucson, AZ, Nov 2025.
+
+* **Zhang, H.**; Nguyen, H.T. *Temperature-Dependent Ion Migration Underlies Sequence-Specific RNA Collapse.* **Poster Presentation.** Rustbelt RNA Conference, Huron, Ohio, Oct 2025.
+
+* **Zhang, H.**; Nguyen, H.T. *Ion-dependent Structural Ensemble and Phase Separation Propensity of Single-stranded RNA.* **Poster Presentation.** Academic Excellence Celebration, Buffalo, NY, May 2025.
+
+* **Zhang, H.**; Nguyen, H.T. *Coarse-grained Simulation of RNA.* **Invited Lecture.** Molecular Dynamics Simulations (Prof. Viviana Monje), Buffalo, NY, April 2025.
+
+* **Zhang, H.**; Nguyen, H.T. *Ion-dependent Structural Ensembles and Phase Separation of Single-stranded RNA.* **Oral Presentation.** Buffalo RNA Group, Buffalo, NY, March 2025.
+
+* **Zhang, H.**; Nguyen, H.T. *Ion-dependent Structural Ensembles and Phase Separation of Single-stranded RNA.* **Poster Presentation.** Biophysical Society Meeting, Los Angeles, CA, Feb 2025.
+
+* **Zhang, H.**; Nguyen, H.T. *Ion-driven RNA Condensate Simulation.* **Poster Presentation.** Biophysical Society Meeting, Los Angeles, CA, Feb 2025.
+
+* **Zhang, H.**; Nguyen, H.T. *Ion-dependent Structural Ensemble of Single-stranded RNA.* **Poster Presentation.** New York State RNA Conference, Canandaigua, NY, Oct 2024. **(Best Poster Award.)**
+
+* **Zhang, H.**; Nguyen, H.T. *Parameterization of Coarse-grained ssRNA Force Field.* **Poster Presentation.** Buffalo Graduate Student Symposium, Buffalo, NY, May 2024.
 
 ### Teaching
 * Computational Chemistry (Spring 2025)

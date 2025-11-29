@@ -45,7 +45,7 @@
 <div class="profile-container">
   <img src="headshot.JPEG" alt="Headshot of Peter Zhang" class="profile-img" />
   <div class="profile-text">
-    <p><strong> Hi! Thanks for taking the time to learn a bit more about me. I hope this page will give you a sense of my scientific motivations, what I've done, and where I'm going. </strong>.</p>
+    <p><strong> Hi! Thanks for taking the time to learn a bit more about me. I hope this page will give you a sense of my scientific motivations, what I've done, and where I'm going. </strong></p>
     <p> I am a fifth-year PhD student at SUNY Buffalo. My long-term career goal is to develop therapies that make a real impact in patients' lives by putting drugs on the market that improve outcomes and bring hope to patients.</p>
     <p> My scientific journey started in organic synthesis during my undergraduate years, where I worked on designing and synthesizing lipid molecules for RNA delivery. Although the COVID-19 pandemic interrupted part of my undergraduate research, I was able to nevigate the restrictions and continue work on the project and completed an honors thesis, which has since grown into an NIH-funded program supporting many students.</p>
     <p> Caught the research bug, I joined SUNY Buffalo for graduate school to continue my training in synthetic and chemical biology. For my master's research, I developed novel bioorthogonal probes and explored incorporating unnatural amino acids into proteins to do click chemistry for the purpose of drug target identification - an approach I still find very interesting.</p>
