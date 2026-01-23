@@ -6,6 +6,7 @@ category: Jekyll
 layout: post
 ---
 ## 2025
+**11/30/2025:** Submitted our paper on investigating Poly(ADP-ribose) (PAR) ion binding and comparison with RNA. [biorxiv](https://www.biorxiv.org/content/10.1101/2025.11.29.691228v1.abstract)
 **11/28/2025:** Attended and presented at the MDAnalysis UGM at Arizona State University in Tucson, Arizona. [photo](https://drive.google.com/file/d/1KdZZRonu9p5ZudaDc2nIsEAF_yXyS5pE/view?usp=sharing) \
 **10/24/2025:** Attended and presented a poster at the Rustbelt RNA Meeting in Huron, Ohio. [photo](https://drive.google.com/file/d/1vh-UElhWjhf3XhUarfkj6j4iSOnGunoq/view?usp=sharing) \
 **10/21/2025:** Submitted our paper on temperature-dependent ion migration and sequence-specific collapse of single-stranded RNA. [biorxiv](https://www.biorxiv.org/content/10.1101/2025.10.20.683600v1.full) \
