@@ -13,11 +13,11 @@ layout: post
 * __Gettysburg College Residential Life Office__, Resident Assistant, (Sep 2018 to May 2020)
 
 ### Education
-* __State University of New York at Buffalo__, Buffalo, NY. (Expected May 2026)
+* __State University of New York at Buffalo__, Buffalo, NY.
     - Ph.D. Computational Chemistry, Bio Simulation Lab
     - Advisor: Hung T. Nguyen
 
-* __Gettysburg College__, Gettysburg, PA. (2017-2021) 
+* __Gettysburg College__, Gettysburg, PA.
     - B.S. Biochemistry and Molecular Biology
     - Advisor: Tim Funk
     - Thesis: "Synthesis of cyanuric chloride-based synthetic lipids"
@@ -34,6 +34,8 @@ layout: post
 (5) Fang, M.; Kumar, G. S.; Racioppi, S.; **Zhang, H.**; Rabb, J. D.; Zurek, E.; Lin, Q. Hydrazonyl Sultones as Stable Tautomers of Highly Reactive Nitrile Imines for Fast Bioorthogonal Ligation Reaction. _J. Am. Chem. Soc._ 2023, 145 (18), 9959–9964. [pdf](https://drive.google.com/file/d/1qe-B7CSS1OjKJw6gRGrmKajED_MZ5fLJ/view?usp=sharing)
 
 ### Presentations
+* **Zhang, H.**; Nguyen, H.T. *RNA Collapse and Condensate Formation Tuned by Temperature and Counterions* **Poster Presentation.** Biophysical Society Meeting, San Francisco, CA, Feb 2026.
+
 * **Zhang, H.**; Nguyen, H.T. *Coarse-grained Simulation of ssRNA.* **Oral Presentation.** MDAnalysis UGM, Tucson, AZ, Nov 2025.
 
 * **Zhang, H.**; Nguyen, H.T. *Temperature-Dependent Ion Migration Underlies Sequence-Specific RNA Collapse.* **Poster Presentation.** Rustbelt RNA Conference, Huron, Ohio, Oct 2025.
