@@ -22,6 +22,10 @@ layout: post
     - Advisor: Tim Funk
     - Thesis: "Synthesis of cyanuric chloride-based synthetic lipids"
 
+### Certificates
+* Schrödinger - Virtual Screening and Machine Learning. Nov 2025.
+* Schrödinger - Free Energy Calculations for Drug Design with FEP+. Oct 2025.
+
 ### Publications
 (1) Lipika Baidya; **Zhang, H.**; Nguyen T. H. Why PAR is not RNA: Ion Atmosphere, Bridging Interactions, and Ion-induced Structural Collapse. _biorxiv_. [pdf](https://www.biorxiv.org/content/10.1101/2025.11.29.691228v1.abstract)
 
@@ -34,11 +38,13 @@ layout: post
 (5) Fang, M.; Kumar, G. S.; Racioppi, S.; **Zhang, H.**; Rabb, J. D.; Zurek, E.; Lin, Q. Hydrazonyl Sultones as Stable Tautomers of Highly Reactive Nitrile Imines for Fast Bioorthogonal Ligation Reaction. _J. Am. Chem. Soc._ 2023, 145 (18), 9959–9964. [pdf](https://drive.google.com/file/d/1qe-B7CSS1OjKJw6gRGrmKajED_MZ5fLJ/view?usp=sharing)
 
 ### Presentations
-* **Zhang, H.**; Nguyen, H.T. *RNA Collapse and Condensate Formation Tuned by Temperature and Counterions* **Poster Presentation.** Biophysical Society Meeting, San Francisco, CA, Feb 2026.
+* **Zhang, H.**; Nguyen, H.T. *RNA Collapse and Condensate Formation Tuned by Temperature and Counterions.* **Poster Presentation.** Biophysical Society Meeting, San Francisco, CA, Feb 2026.
 
 * **Zhang, H.**; Nguyen, H.T. *Coarse-grained Simulation of ssRNA.* **Oral Presentation.** MDAnalysis UGM, Tucson, AZ, Nov 2025.
 
 * **Zhang, H.**; Nguyen, H.T. *Temperature-Dependent Ion Migration Underlies Sequence-Specific RNA Collapse.* **Poster Presentation.** Rustbelt RNA Conference, Huron, Ohio, Oct 2025.
+
+* **Zhang, H.**; Nguyen, H.T. *Ion-dependent Structural Ensemble and Phase Separation Propensity of Single-stranded RNA.* **Poster Presentation.** Computational Medicinal Chemistry School, Novartis Institutes for BioMedical Research, Cambridge, MA, September 2025.
 
 * **Zhang, H.**; Nguyen, H.T. *Ion-dependent Structural Ensemble and Phase Separation Propensity of Single-stranded RNA.* **Poster Presentation.** Academic Excellence Celebration, Buffalo, NY, May 2025.
 
