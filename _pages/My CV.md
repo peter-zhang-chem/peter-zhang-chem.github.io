@@ -68,5 +68,7 @@ layout: post
 * General Chemistry (Fall 2021, Fall 2025)
 
 ### Awards
+* Enveda Employee of the Month, Enveda (Summer 2025)
+* First place at Enveda Summer Hackathon (Project: Customized Bruker timsTOF Scheduler), Enveda (Summer 2025)
 * Academic Excellence Award, State University of New York (Spring 2025)
 * John B. Zinn Chemistry Research Award, Gettysburg College (Spring 2021)
