@@ -27,15 +27,15 @@ layout: post
 * Schrödinger - Free Energy Calculations for Drug Design with FEP+. Oct 2025.
 
 ### Publications
-(1) Lipika Baidya; **Zhang, H.**; Nguyen T. H. Why PAR is not RNA: Ion Atmosphere, Bridging Interactions, and Ion-induced Structural Collapse. _biorxiv_. [pdf](https://www.biorxiv.org/content/10.1101/2025.11.29.691228v1.abstract)
+(1) Baidya, L.; **Zhang, H.**; Nguyen, H. T. Poly(ADP-Ribose) (PAR) Exhibits Ion-Dependent Structural Properties Distinct from RNA. _Nucleic Acids Res_ **2026**, _54 (6)_, gkag265. [pdf](https://drive.google.com/file/d/1XnAWzWrhvC-rKS__8QTFXUL4xpimZcSt/view?usp=sharing)
 
 (2) **Zhang, H.**; Maity, H.; Nguyen T. H. Temperature-Dependent Ion Migration Underlies Sequence-Specific RNA Collapse. _biorxiv_. [pdf](https://www.biorxiv.org/content/10.1101/2025.10.20.683600v1.full)
 
-(3) Maity, H.; **Zhang, H.**; Thirumalai, D.; Nguyen, H. T. RNA Structural Complexity Dictates Its Ion Atmosphere. _J. Phys. Chem. Lett._ 2025, 8393–8402. [pdf](https://drive.google.com/file/d/17H6vTtfJtpK7yu5TmXCpsvv7cPRlby3J/view?usp=sharing)
+(3) Maity, H.; **Zhang, H.**; Thirumalai, D.; Nguyen, H. T. RNA Structural Complexity Dictates Its Ion Atmosphere. _J. Phys. Chem. Lett._ **2025**, 8393–8402. [pdf](https://drive.google.com/file/d/17H6vTtfJtpK7yu5TmXCpsvv7cPRlby3J/view?usp=sharing)
 
-(4) **Zhang, H.**; Fang, M.; Lin, Q. Photo-Activatable Reagents for Bioorthogonal Ligation Reactions. _Top Curr Chem (Z)_ 2023, 382 (1), 1. [pdf](https://drive.google.com/file/d/1e9xyhD1HEe5vk2GPWd3ROBTLpXKtTDXz/view?usp=sharing)
+(4) **Zhang, H.**; Fang, M.; Lin, Q. Photo-Activatable Reagents for Bioorthogonal Ligation Reactions. _Top Curr Chem (Z)_ **2023**, _382 (1)_, 1. [pdf](https://drive.google.com/file/d/1e9xyhD1HEe5vk2GPWd3ROBTLpXKtTDXz/view?usp=sharing)
 
-(5) Fang, M.; Kumar, G. S.; Racioppi, S.; **Zhang, H.**; Rabb, J. D.; Zurek, E.; Lin, Q. Hydrazonyl Sultones as Stable Tautomers of Highly Reactive Nitrile Imines for Fast Bioorthogonal Ligation Reaction. _J. Am. Chem. Soc._ 2023, 145 (18), 9959–9964. [pdf](https://drive.google.com/file/d/1qe-B7CSS1OjKJw6gRGrmKajED_MZ5fLJ/view?usp=sharing)
+(5) Fang, M.; Kumar, G. S.; Racioppi, S.; **Zhang, H.**; Rabb, J. D.; Zurek, E.; Lin, Q. Hydrazonyl Sultones as Stable Tautomers of Highly Reactive Nitrile Imines for Fast Bioorthogonal Ligation Reaction. _J. Am. Chem. Soc._ **2023**, _145 (18)_, 9959–9964. [pdf](https://drive.google.com/file/d/1qe-B7CSS1OjKJw6gRGrmKajED_MZ5fLJ/view?usp=sharing)
 
 ### Presentations
 * **Zhang, H.**; Nguyen, H.T. *RNA Collapse and Condensate Formation Tuned by Temperature and Counterions.* **Poster Presentation.** Biophysical Society Meeting, San Francisco, CA, Feb 2026.

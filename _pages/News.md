@@ -6,7 +6,8 @@ category: Jekyll
 layout: post
 ---
 ## 2026
-**02/22/2025:** Presented our on-going work on computational studies of temperature and counterion controlled phase separation of RNA at the annual biophysical society meeting in SF 🌉. Can't wait to share the manuscript with the community soon!
+**03/27/2026:** Our work on modeling poly(ADP-ribose) (PAR) is published in [Nucleic Acids Research](https://academic.oup.com/nar/article/54/6/gkag265/8550794?login=true)! 🕺🏻 [pdf](https://drive.google.com/file/d/1XnAWzWrhvC-rKS__8QTFXUL4xpimZcSt/view?usp=sharing)\
+**02/22/2026:** Presented our on-going work on computational studies of temperature and counterion controlled phase separation of RNA at the annual biophysical society meeting in SF 🌉. Can't wait to share the manuscript with the community soon! [photo](https://drive.google.com/file/d/1CG_G5MTu3Z5X4_YkHX9mJTPhxtzjced5/view?usp=sharing)
 
 ## 2025
 **11/30/2025:** Submitted our paper on investigating Poly(ADP-ribose) (PAR) ion binding and comparison with RNA. [biorxiv](https://www.biorxiv.org/content/10.1101/2025.11.29.691228v1.abstract) \
