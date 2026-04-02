@@ -402,15 +402,10 @@ cas-support@rt.caset.buffalo.edu
 ```
 Dear Chris,
 
-I am trying to set up remote access to my lab workstation 
-(cast-nguyenh-xxx (replace with your computer identifier, 
-found on the white sticker on the machine; IP: 128.205.xxx.xx)).
-
-Could you please enable SSH access (openssh-server) and allow port 22?
+I am trying to set up remote access to my lab workstation (cast-nguyenh-xxx (replace the name with your computer identifier, found on the white sticker on the machine), IP address: 128.205.xxx.xx) Could you please enable SSH access (openssh-server) and allow port 22?
 
 Thank you!
 
-Peter Zhang
+Your Name
 ```
-
 Once SSH access (port 22) is enabled, you can connect to your lab desktop remotely just as if you were physically sitting in front of it (via command line).
