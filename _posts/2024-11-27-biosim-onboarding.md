@@ -350,7 +350,7 @@ For additional details, please check out these references:
 2. [Arena Github](https://github.com/pylelab/Arena).
 3. [χOL3 force field](https://fch.upol.cz/ff_ol/)
 
-Remotely access lab desktop and NAS
+## Remotely access lab desktop and NAS
 -------------
 > **Prerequisite:** If you are off-campus, you must connect to UB VPN before proceeding.
 
