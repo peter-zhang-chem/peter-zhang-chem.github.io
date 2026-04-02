@@ -414,4 +414,5 @@ cas-support@rt.caset.buffalo.edu
 >
 > Your Name
 > ```
+
 Once SSH access (port 22) is enabled, you can connect to your lab desktop remotely just as if you were physically sitting in front of it (via command line).
