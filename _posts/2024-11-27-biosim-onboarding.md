@@ -349,3 +349,68 @@ For additional details, please check out these references:
 1. [Magdalena A. Jonikas's RNA GROMACS Tips](https://drive.google.com/file/d/1I9e_1HUPlsLtWxT6ouKrEb0u6ycZ9sda/view?usp=sharing)
 2. [Arena Github](https://github.com/pylelab/Arena).
 3. [χOL3 force field](https://fch.upol.cz/ff_ol/)
+
+Remotely access lab desktop and NAS
+-------------
+> **Prerequisite:** If you are off-campus, you must connect to UB VPN before proceeding.
+
+### Accessing the NAS from the Lab Desktop
+From your lab workstation, you can directly access the NAS by running:
+
+```bash
+cd ~/mnt/nas/projects
+```
+
+If this is your first time accessing the NAS, please create a folder with your name:
+```bash
+mkdir ~/mnt/nas/projects/<your_name>
+```
+
+### Remotely Access Lab Desktop
+To remotely connect to your lab computer, first determine its IP address by running:
+```bash
+hostname -I
+```
+You should see output similar to:
+```bash
+(base) hzhang79@cast-nguyenh-wk1:~$ hostname -I
+128.205.xxx.xx 192.168.223.101 2620:cc:xxxx:xxx::abe1
+```
+
+> Explaination of the IP Address:
+- `128.205.xxx.xx` **University at Buffalo network IP** (used for remote access).
+- `192.168.223.101` **Private/local network IP** (only works within the same local network).
+- `2620:cc:xxxx:xxx::abe1` **IPv6 address**
+> Note: Portions of the IP addresses are masked (x) for privacy.
+
+### Connecting to Your Lab Desktop via SSH
+From your personal computer, use the UB network IP (128.205.xxx.xx) to connect:
+```bash
+ssh username@128.205.xxx.xx
+```
+For example:
+```bash
+ssh hzhang79@128.205.xxx.xx
+```
+### Enabling SSH Access (if connection fails)
+If the connection fails, SSH access may not yet be enabled on your workstation.
+In that case, send a request to:
+```
+cas-support@rt.caset.buffalo.edu
+```
+> **Email Template**
+```
+Dear Chris,
+
+I am trying to set up remote access to my lab workstation 
+(cast-nguyenh-xxx (replace with your computer identifier, 
+found on the white sticker on the machine; IP: 128.205.xxx.xx)).
+
+Could you please enable SSH access (openssh-server) and allow port 22?
+
+Thank you!
+
+Peter Zhang
+```
+
+Once SSH access (port 22) is enabled, you can connect to your lab desktop remotely just as if you were physically sitting in front of it (via command line).
