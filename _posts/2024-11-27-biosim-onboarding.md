@@ -374,23 +374,23 @@ hostname -I
 You should see output similar to:
 ```bash
 (base) hzhang79@cast-nguyenh-wk1:~$ hostname -I
-128.205.xxx.xx 192.168.223.101 2620:cc:xxxx:xxx::abe1
+xxx.xxx.xxx.xx xxx.xxx.xxx.xxx xxxx:cc:xxxx:xxx::xxxx
 ```
 
 > Explaination of the IP Address:
-- `128.205.xxx.xx` **University at Buffalo network IP** (used for remote access).
-- `192.168.223.101` **Private/local network IP** (only works within the same local network).
-- `2620:cc:xxxx:xxx::abe1` **IPv6 address**
+- `xxx.xxx.xxx.xx` **University at Buffalo network IP** (used for remote access).
+- `xxx.xxx.xxx.xxx` **Private/local network IP** (only works within the same local network).
+- `xxxx:cc:xxxx:xxx::xxxx` **IPv6 address**
 > Note: Portions of the IP addresses are masked (x) for privacy.
 
 ### Connecting to Your Lab Desktop via SSH
-From your personal computer, use the UB network IP (128.205.xxx.xx) to connect:
+From your personal computer, use the UB network IP (xxx.xxx.xxx.xx) to connect:
 ```bash
-ssh username@128.205.xxx.xx
+ssh username@xxx.xxx.xxx.xx
 ```
 For example:
 ```bash
-ssh hzhang79@128.205.xxx.xx
+ssh hzhang79@xxx.xxx.xxx.xx
 ```
 ### Enabling SSH Access (if connection fails)
 If the connection fails, SSH access may not yet be enabled on your workstation.
@@ -406,7 +406,7 @@ cas-support@rt.caset.buffalo.edu
 > I am trying to set up remote access to my lab workstation (cast-nguyenh-xxx).
 > Replace this with your computer identifier (found on the white sticker on the machine).
 >
-> IP address: 128.205.xxx.xx
+> IP address: xxx.xxx.xxx.xx
 >
 > Could you please enable SSH access (openssh-server) and allow port 22?
 >
