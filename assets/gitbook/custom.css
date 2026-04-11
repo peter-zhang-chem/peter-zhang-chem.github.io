@@ -262,8 +262,46 @@ pre:has(code.language-mermaid[data-processed="true"]) {
     --font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
-.visitor-map {
-    width: 220px;
-    margin: 20px auto;
-    text-align: center;
+.profile-container {
+    display: flex;
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+  }
+  
+  .profile-text {
+    flex: 2;
+    max-width: 650px;
+    line-height: 1.6;
+  }
+  
+  .photo-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .photo-column img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+
+  @media (max-width: 800px) {
+    .profile-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .photo-column {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .photo-column img {
+      width: 45%;
+    }
   }
