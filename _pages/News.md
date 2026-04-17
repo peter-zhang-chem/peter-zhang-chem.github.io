@@ -6,6 +6,7 @@ category: Jekyll
 layout: post
 ---
 ## 2026
+**04/16/2026:** Delighted to be invited back to CE530 (Molecular Modeling) by Dr. Monje to give a guest lecture on computational modeling of RNA biomolecular condensates! 🫧\
 **03/27/2026:** Our work on modeling poly(ADP-ribose) (PAR) is published in [Nucleic Acids Research](https://academic.oup.com/nar/article/54/6/gkag265/8550794?login=true)! 🕺🏻 [pdf](https://drive.google.com/file/d/1XnAWzWrhvC-rKS__8QTFXUL4xpimZcSt/view?usp=sharing)\
 **02/22/2026:** Presented our on-going work on computational studies of temperature and counterion controlled phase separation of RNA at the annual biophysical society meeting in SF 🌉. Can't wait to share the manuscript with the community soon! [photo](https://drive.google.com/file/d/1CG_G5MTu3Z5X4_YkHX9mJTPhxtzjced5/view?usp=sharing)
 
