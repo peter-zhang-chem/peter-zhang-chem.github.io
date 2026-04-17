@@ -38,7 +38,7 @@ layout: post
 (5) Fang, M.; Kumar, G. S.; Racioppi, S.; **Zhang, H.**; Rabb, J. D.; Zurek, E.; Lin, Q. Hydrazonyl Sultones as Stable Tautomers of Highly Reactive Nitrile Imines for Fast Bioorthogonal Ligation Reaction. _J. Am. Chem. Soc._ **2023**, _145 (18)_, 9959–9964. [pdf](https://drive.google.com/file/d/1qe-B7CSS1OjKJw6gRGrmKajED_MZ5fLJ/view?usp=sharing)
 
 ### Presentations
-* **Zhang, H.**; Nguyen, H.T. *Computational Modeling of RNA Biomolecular Condensates* **Invited Lecture.** Molecular Dynamics Simulations (Prof. Viviana Monje), Buffalo, NY, April 2026.
+* **Zhang, H.**; Nguyen, H.T. *Computational Modeling of RNA Biomolecular Condensates.* **Invited Lecture.** Molecular Dynamics Simulations (Prof. Viviana Monje), Buffalo, NY, April 2026.
 
 * **Zhang, H.**; Nguyen, H.T. *RNA Collapse and Condensate Formation Tuned by Temperature and Counterions.* **Poster Presentation.** Biophysical Society Meeting, San Francisco, CA, Feb 2026.
 
