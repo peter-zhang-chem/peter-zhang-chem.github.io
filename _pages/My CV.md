@@ -6,17 +6,11 @@ category: Jekyll
 layout: post
 ---
 ### Work Experience
-
 - **Summer Research Fellow**, Rockefeller University - May 2026 to August 2026
-
 - **Platform Chemistry Intern**, Enveda Biosciences - May 2025 to August 2025  
-
 - **Summer Research Fellow**, Cross-Disciplinary Science Institute, Gettysburg College - Summer 2018, 2019  
-
 - **Research Assistant**, Department of Chemistry, Gettysburg College - January 2018 to May 2021  
-
 - **Resident Coordinator**, Residential Life Office, Gettysburg College - September 2020 to May 2021  
-
 - **Resident Assistant**, Residential Life Office, Gettysburg College - September 2018 to May 2020  
 
 ### Education
@@ -69,23 +63,15 @@ layout: post
 
 ### Teaching
 * Computational Chemistry - Spring 2025
-
 * Organic Chemistry - Spring 2024
-
 * Physical Chemistry for Life Sciences - Spring 2022, Spring 2023, Fall 2024
-
 * Honors Organic Chemistry - Fall 2022
-
 * General Chemistry - Fall 2021, Fall 2025
 
 ### Honors & Awards
 - **John Rys Fellowship**, University at Buffalo - Summer 2026  
   Awarded; declined in favor of research appointment at Rockefeller University  
-
 - **Employee of the Month**, Enveda Biosciences - Summer 2025  
-
 - **First Place, Summer Hackathon** *(Customized Bruker timsTOF Scheduler)*, Enveda Biosciences - Summer 2025  
-
 - **Academic Excellence Award**, State University of New York - Spring 2025  
-
 - **John B. Zinn Chemistry Research Award**, Gettysburg College - Spring 2021  
