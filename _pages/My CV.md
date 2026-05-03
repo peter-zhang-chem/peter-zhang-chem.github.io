@@ -6,11 +6,18 @@ category: Jekyll
 layout: post
 ---
 ### Work Experience
-* __Enveda Biosciences__, Platform Chemistry Intern, (May 2025 to August 2025)
-* __Cross-Disciplinary Science Institute at Gettysburg College__, Summer Research Fellowship, (Summer 2018 and 2019)
-* __Gettysburg College Chemistry__, Research Assistant, (Jan 2018 to May 2021)
-* __Gettysburg College Residential Life Office__, Resident Coordinator, (Sep 2020 to May 2021)
-* __Gettysburg College Residential Life Office__, Resident Assistant, (Sep 2018 to May 2020)
+
+- **Summer Research Fellow**, Rockefeller University - May 2026 to August 2026
+
+- **Platform Chemistry Intern**, Enveda Biosciences - May 2025 to August 2025  
+
+- **Summer Research Fellow**, Cross-Disciplinary Science Institute, Gettysburg College - Summer 2018, 2019  
+
+- **Research Assistant**, Department of Chemistry, Gettysburg College - January 2018 to May 2021  
+
+- **Resident Coordinator**, Residential Life Office, Gettysburg College - September 2020 to May 2021  
+
+- **Resident Assistant**, Residential Life Office, Gettysburg College - September 2018 to May 2020  
 
 ### Education
 * __State University of New York at Buffalo__, Buffalo, NY.
@@ -38,8 +45,6 @@ layout: post
 (5) Fang, M.; Kumar, G. S.; Racioppi, S.; **Zhang, H.**; Rabb, J. D.; Zurek, E.; Lin, Q. Hydrazonyl Sultones as Stable Tautomers of Highly Reactive Nitrile Imines for Fast Bioorthogonal Ligation Reaction. _J. Am. Chem. Soc._ **2023**, _145 (18)_, 9959–9964. [pdf](https://drive.google.com/file/d/1qe-B7CSS1OjKJw6gRGrmKajED_MZ5fLJ/view?usp=sharing)
 
 ### Presentations
-* **Zhang, H.**; Nguyen, H.T. *Computational Modeling of RNA Biomolecular Condensates.* **Invited Lecture.** Molecular Dynamics Simulations (Prof. Viviana Monje), Buffalo, NY, April 2026.
-
 * **Zhang, H.**; Nguyen, H.T. *RNA Collapse and Condensate Formation Tuned by Temperature and Counterions.* **Poster Presentation.** Biophysical Society Meeting, San Francisco, CA, Feb 2026.
 
 * **Zhang, H.**; Nguyen, H.T. *Coarse-grained Simulation of ssRNA.* **Oral Presentation.** MDAnalysis UGM, Tucson, AZ, Nov 2025.
@@ -63,14 +68,24 @@ layout: post
 * **Zhang, H.**; Nguyen, H.T. *Parameterization of Coarse-grained ssRNA Force Field.* **Poster Presentation.** Buffalo Graduate Student Symposium, Buffalo, NY, May 2024.
 
 ### Teaching
-* Computational Chemistry (Spring 2025)
-* Organic Chemistry (Spring 2024)
-* Physical Chemistry for Life Sciences (Spring 2022, Spring 2023, Fall 2024)
-* Honors Organic Chemistry (Fall 2022)
-* General Chemistry (Fall 2021, Fall 2025)
+* Computational Chemistry - Spring 2025
 
-### Awards
-* Enveda Employee of the Month, Enveda (Summer 2025)
-* First place at Enveda Summer Hackathon (Project: Customized Bruker timsTOF Scheduler), Enveda (Summer 2025)
-* Academic Excellence Award, State University of New York (Spring 2025)
-* John B. Zinn Chemistry Research Award, Gettysburg College (Spring 2021)
+* Organic Chemistry - Spring 2024
+
+* Physical Chemistry for Life Sciences - Spring 2022, Spring 2023, Fall 2024
+
+* Honors Organic Chemistry - Fall 2022
+
+* General Chemistry - Fall 2021, Fall 2025
+
+### Honors & Awards
+- **John Rys Fellowship**, University at Buffalo - Summer 2026  
+  Awarded; declined in favor of research appointment at Rockefeller University  
+
+- **Employee of the Month**, Enveda Biosciences - Summer 2025  
+
+- **First Place, Summer Hackathon** *(Customized Bruker timsTOF Scheduler)*, Enveda Biosciences - Summer 2025  
+
+- **Academic Excellence Award**, State University of New York - Spring 2025  
+
+- **John B. Zinn Chemistry Research Award**, Gettysburg College - Spring 2021  
