@@ -5,11 +5,14 @@ date: 2022-02-04
 category: Jekyll
 layout: post
 ---
-### Work Experience
-- **Summer Research Fellow**, Rockefeller University - May 2026 to August 2026
+### Research Experience
+- **Summer Research Fellow**, Rockefeller University - May 2026 to Present
+- **Doctoral Candidate**, University at Buffalo - September 2023 to Present
 - **Platform Chemistry Intern**, Enveda Biosciences - May 2025 to August 2025  
-- **Summer Research Fellow**, Cross-Disciplinary Science Institute, Gettysburg College - Summer 2018, 2019  
-- **Research Assistant**, Department of Chemistry, Gettysburg College - January 2018 to May 2021  
+- **Summer Research Fellow**, Gettysburg College - Summer 2018, 2019  
+- **Research Assistant**, Gettysburg College - January 2018 to May 2021  
+
+### Work Experience
 - **Resident Coordinator**, Residential Life Office, Gettysburg College - September 2020 to May 2021  
 - **Resident Assistant**, Residential Life Office, Gettysburg College - September 2018 to May 2020  
 
