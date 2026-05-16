@@ -6,7 +6,7 @@ category: Jekyll
 layout: post
 ---
 ### Research Experience
-- **Summer Research Fellow**, Rockefeller University - May 2026 to Present
+- **Research Intern**, Rockefeller University - May 2026 to Present
 - **Doctoral Candidate**, University at Buffalo - September 2023 to Present
 - **Platform Chemistry Intern**, Enveda Biosciences - May 2025 to August 2025  
 - **Summer Research Fellow**, Gettysburg College - Summer 2018, 2019  
