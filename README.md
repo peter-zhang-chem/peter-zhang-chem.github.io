@@ -1,62 +1,81 @@
 <style>
   .profile-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    max-width: 900px;
+    max-width: 950px;
     margin: auto;
     padding: 40px 20px;
+  }
+
+  .hero-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
     flex-wrap: wrap;
   }
 
   .profile-img {
-    width: 200px;
-    border-radius: 10px;
-    margin-right: 20px;
+    width: 220px;
+    border-radius: 12px;
     flex-shrink: 0;
   }
 
-  .profile-text {
-    flex: 1;
-    min-width: 250px;
-    padding-top: 10px;
-  }
   .value-quote {
-  font-style: italic;
-  font-size: 1.2rem;
-  line-height: 1.6;
-  color: #444;
-  border-left: 4px solid #999;
-  padding-left: 20px;
-  margin: 30px 0;
+    flex: 1;
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: #555;
+    border-left: 4px solid #999;
+    padding-left: 24px;
+    margin: 0;
   }
 
-  @media (max-width: 600px) {
-    .profile-container {
+  .quote-author {
+    display: block;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-style: normal;
+    color: #777;
+  }
+
+  .profile-text {
+    font-size: 1.05rem;
+    line-height: 1.8;
+  }
+
+  @media (max-width: 700px) {
+    .hero-section {
       flex-direction: column;
-      align-items: center;
+      text-align: center;
+    }
+
+    .value-quote {
+      border-left: none;
+      border-top: 4px solid #999;
+      padding-left: 0;
+      padding-top: 20px;
+      font-size: 1.2rem;
     }
 
     .profile-img {
-      margin-right: 0;
-      margin-bottom: 20px;
       width: 60%;
-      max-width: 200px;
-    }
-
-    .profile-text {
-      text-align: center;
-      padding: 0;
+      max-width: 220px;
     }
   }
 </style>
 
 <div class="profile-container">
-  <img src="headshot.JPEG" alt="Headshot of Peter Zhang" class="profile-img" />
-  <blockquote class="value-quote">
-  “We should publish great science, but more importantly, we must translate it into therapeutics to benefit patients – after all at the end of the day, we are all patients.”
-  --- Atul Butte
-  </blockquote>
+
+  <div class="hero-section">
+    <img src="headshot.JPEG" 
+         alt="Headshot of Peter Zhang" 
+         class="profile-img" />
+
+    <blockquote class="value-quote">
+      “We should publish great science, but more importantly, we must translate it into therapeutics to benefit patients — after all, at the end of the day, we are all patients.”
+      <span class="quote-author">— Atul Butte</span>
+    </blockquote>
+  </div>
   <div class="profile-text">
     <p><strong> Hi! Thanks for taking the time to learn a bit more about me. I hope this page will give you a sense of my scientific motivations, what I've done, and where I'm going.</strong></p>
     <p> I am a fifth-year PhD student at SUNY Buffalo. My long-term career goal is to develop therapies that make a real impact in patients' lives by putting drugs on the market that improve outcomes and bring hope to patients.</p>
