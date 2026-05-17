@@ -21,6 +21,15 @@
     min-width: 250px;
     padding-top: 10px;
   }
+  .value-quote {
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #444;
+  border-left: 4px solid #999;
+  padding-left: 20px;
+  margin: 30px 0;
+  }
 
   @media (max-width: 600px) {
     .profile-container {
@@ -44,6 +53,10 @@
 
 <div class="profile-container">
   <img src="headshot.JPEG" alt="Headshot of Peter Zhang" class="profile-img" />
+  <blockquote class="value-quote">
+  “We should publish great science, but more importantly, we must translate it into therapeutics to benefit patients – after all at the end of the day, we are all patients.”
+  --- Atul Butte
+  </blockquote>
   <div class="profile-text">
     <p><strong> Hi! Thanks for taking the time to learn a bit more about me. I hope this page will give you a sense of my scientific motivations, what I've done, and where I'm going.</strong></p>
     <p> I am a fifth-year PhD student at SUNY Buffalo. My long-term career goal is to develop therapies that make a real impact in patients' lives by putting drugs on the market that improve outcomes and bring hope to patients.</p>

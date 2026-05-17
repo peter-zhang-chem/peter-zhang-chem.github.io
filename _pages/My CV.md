@@ -9,7 +9,7 @@ layout: post
 - **Research Intern**, Rockefeller University - May 2026 to Present
 - **Doctoral Candidate**, University at Buffalo - September 2023 to Present
 - **Platform Chemistry Intern**, Enveda Biosciences - May 2025 to August 2025  
-- **Summer Research Fellow**, Gettysburg College - Summer 2018, 2019  
+- **Research Fellow**, Gettysburg College - Summer 2018, 2019  
 - **Research Assistant**, Gettysburg College - January 2018 to May 2021  
 
 ### Work Experience
