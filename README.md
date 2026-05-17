@@ -39,7 +39,7 @@
   }
 
   .profile-text {
-    font-size: 1.05rem;
+    font-size: 1.5rem;
     line-height: 1.8;
   }
 
@@ -76,6 +76,7 @@
       <span class="quote-author">— Atul Butte</span>
     </blockquote>
   </div>
+
   <div class="profile-text">
     <p><strong> Hi! Thanks for taking the time to learn a bit more about me. I hope this page will give you a sense of my scientific motivations, what I've done, and where I'm going.</strong></p>
     <p> I am a fifth-year PhD student at SUNY Buffalo. My long-term career goal is to develop therapies that make a real impact in patients' lives by putting drugs on the market that improve outcomes and bring hope to patients.</p>
