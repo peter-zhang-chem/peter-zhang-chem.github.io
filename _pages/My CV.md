@@ -5,16 +5,14 @@ date: 2022-02-04
 category: Jekyll
 layout: post
 ---
-### Research Experience
-- **Research Intern**, Rockefeller University - May 2026 to Present
+### Academic Research Experience
+- **Research Intern**, Rockefeller University (Host: Prof. [Steve Bonilla](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/12052-steve-l-bonilla/)) - May 2026 to Present
 - **Doctoral Candidate**, University at Buffalo - September 2023 to Present
-- **Platform Chemistry Intern**, Enveda Biosciences - May 2025 to August 2025  
-- **Research Fellow**, Gettysburg College - Summer 2018, 2019  
-- **Research Assistant**, Gettysburg College - January 2018 to May 2021  
+- **Research Fellow**, [XSig](https://www.gettysburg.edu/offices/cross-disciplinary-science-institute/) - Summer 2018, 2019  
+- **Undergraduate Research**, Gettysburg College - January 2018 to May 2021  
 
-### Work Experience
-- **Resident Coordinator**, Residential Life Office, Gettysburg College - September 2020 to May 2021  
-- **Resident Assistant**, Residential Life Office, Gettysburg College - September 2018 to May 2020  
+### Industry Research Experience
+- **Platform Chemistry Intern**, [Enveda](https://enveda.com/) - May 2025 to August 2025  
 
 ### Education
 * __State University of New York at Buffalo__, Buffalo, NY.
