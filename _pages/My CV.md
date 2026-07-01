@@ -6,13 +6,13 @@ category: Jekyll
 layout: post
 ---
 ### Academic Research Experience
-- **Visiting Research Fellow**, Rockefeller University (Host: [Steve Bonilla](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/12052-steve-l-bonilla/)) - May 2026 to Present
-- **Doctoral Candidate**, University at Buffalo - September 2023 to Present
-- **Research Fellow**, [XSig](https://www.gettysburg.edu/offices/cross-disciplinary-science-institute/) - Summer 2018, 2019  
-- **Undergraduate Research**, Gettysburg College - January 2018 to May 2021  
+- **Visiting Research Fellow**, Rockefeller University (Host: [Steve Bonilla](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/12052-steve-l-bonilla/)) – May 2026 to Present
+- **Doctoral Candidate**, University at Buffalo – September 2023 to Present
+- **Research Fellow**, [XSig](https://www.gettysburg.edu/offices/cross-disciplinary-science-institute/) – Summer 2018, 2019  
+- **Undergraduate Research**, Gettysburg College – January 2018 to May 2021  
 
 ### Industry Research Experience
-- **Platform Chemistry Intern**, [Enveda](https://enveda.com/) - May 2025 to August 2025  
+- **Platform Chemistry Intern**, [Enveda](https://enveda.com/) – May 2025 to August 2025  
 
 ### Education
 * __State University of New York at Buffalo__, Buffalo, NY.
@@ -31,7 +31,7 @@ layout: post
 ### Publications
 **_Research Articles:_**
 
-(1) **Zhang, H.**; Baidya, L.; Nguyen, H. T. Spatiotemporal Heterogeneity Governs Structure and Ion–RNA Interactions in Temperature-Driven RNA Phase Separation. _Submitted_.
+(1) **Zhang, H.**; Baidya, L.; Nguyen, H. T. Spatiotemporal Heterogeneity Governs Structure and Ion-RNA Interactions in Temperature-Driven RNA Phase Separation. _Submitted_.
 
 (2) Mohanta, D.; **Zhang, H.**; Thirumalai, D.; Nguyen, H. T. Molecular origins of heterogeneous aging and spatial organization of RNA condensate. _Under Review_.
 
@@ -49,7 +49,7 @@ layout: post
 
 **_Book Chapters:_**
 
-(1) **Zhang, H.**, Fang, M., Lin, Q. (2025). Photo‑activatable Reagents for Bioorthogonal Ligation Reactions. In: Vrábel, M., Mikula, H. (eds) Bioorthogonal Reactions. Topics in Current Chemistry Collections. Springer, Cham. https://doi.org/10.1007/978-3-032-09821-4_5 [pdf](https://drive.google.com/file/d/1e9xyhD1HEe5vk2GPWd3ROBTLpXKtTDXz/view?usp=sharing)
+(1) **Zhang, H.**, Fang, M., Lin, Q. (2025). Photo‑activatable Reagents for Bioorthogonal Ligation Reactions. In: Vrábel, M., Mikula, H. (eds) Bioorthogonal Reactions. Topics in Current Chemistry Collections. Springer, Cham. https://doi.org/10.1007/978-3-032-09821-4_5. [pdf](https://drive.google.com/file/d/1e9xyhD1HEe5vk2GPWd3ROBTLpXKtTDXz/view?usp=sharing)
 
 
 ### Presentations
@@ -71,7 +71,7 @@ layout: post
 
 * **Zhang, H.**; Nguyen, H.T. *Ion-driven RNA Condensate Simulation.* **Poster Presentation.** Biophysical Society Meeting, Los Angeles, CA, Feb 2025.
 
-* **Zhang, H.**; Nguyen, H.T. *Ion-dependent Structural Ensemble of Single-stranded RNA.* **Poster Presentation.** New York State RNA Conference, Canandaigua, NY, Oct 2024. **(Best Poster Award.)**
+* **Zhang, H.**; Nguyen, H.T. *Ion-dependent Structural Ensemble of Single-stranded RNA.* **Poster Presentation.** New York State RNA Conference, Canandaigua, NY, Oct 2024. **(Best Poster Award.)** 🏆
 
 * **Zhang, H.**; Nguyen, H.T. *Parameterization of Coarse-grained ssRNA Force Field.* **Poster Presentation.** Buffalo Graduate Student Symposium, Buffalo, NY, May 2024.
 
