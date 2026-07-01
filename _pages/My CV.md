@@ -35,9 +35,9 @@ layout: post
 
 (2) Mohanta, D.; **Zhang, H.**; Thirumalai, D.; Nguyen, H. T. Molecular origins of heterogeneous aging and spatial organization of RNA condensate. _Under Review_.
 
-(3) Baidya, L.; **Zhang, H.**; Nguyen, H. T. Poly(ADP-Ribose) (PAR) Exhibits Ion-Dependent Structural Properties Distinct from RNA. _Nucleic Acids Res_ **2026**, _54 (6)_, gkag265. [pdf](https://drive.google.com/file/d/1XnAWzWrhvC-rKS__8QTFXUL4xpimZcSt/view?usp=sharing)
-
-(4) **Zhang, H.**; Maity, H.; Nguyen T. H. Temperature-Dependent Ion Migration Underlies Sequence-Specific RNA Collapse. _biorxiv_. [pdf](https://www.biorxiv.org/content/10.1101/2025.10.20.683600v1.full)
+(3) **Zhang, H.**; Maity, H.; Nguyen T. H. Temperature-Dependent Ion Migration Underlies Sequence-Specific RNA Collapse. _Biophys. J._. **2026**, _In Press_. [pdf](https://drive.google.com/file/d/1lj2rA4PI9TI1EFEWOaDB21HaICu4SG9c/view?usp=sharing) 
+ 
+(4) Baidya, L.; **Zhang, H.**; Nguyen, H. T. Poly(ADP-Ribose) (PAR) Exhibits Ion-Dependent Structural Properties Distinct from RNA. _Nucleic Acids Res_ **2026**, _54 (6)_, gkag265. [pdf](https://drive.google.com/file/d/1XnAWzWrhvC-rKS__8QTFXUL4xpimZcSt/view?usp=sharing)
 
 (5) Maity, H.; **Zhang, H.**; Thirumalai, D.; Nguyen, H. T. RNA Structural Complexity Dictates Its Ion Atmosphere. _J. Phys. Chem. Lett._ **2025**, 8393–8402. [pdf](https://drive.google.com/file/d/17H6vTtfJtpK7yu5TmXCpsvv7cPRlby3J/view?usp=sharing)
 
