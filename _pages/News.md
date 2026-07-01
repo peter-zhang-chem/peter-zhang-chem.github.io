@@ -6,6 +6,8 @@ category: Jekyll
 layout: post
 ---
 ## 2026
+**05/20/2026:** A portion of my Ph.D. thesis work is now published in the [Biophysical Journal](https://www.cell.com/biophysj/abstract/S0006-3495(26)00366-8?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0006349526003668%3Fshowall%3Dtrue)! [pdf](https://drive.google.com/file/d/1lj2rA4PI9TI1EFEWOaDB21HaICu4SG9c/view?usp=sharing) \ 
+**05/18/2026:** Started my summer fellowship at the Rockefeller University in the [Bonilla Lab](https://www.bonillalab.org/)! \
 **05/01/2026:** Honored to have received John Rys Scholarship from the University at Buffalo, awarded to graduate student who is engaged in high-quality research in computational or theoretical physical chemistry. \
 **04/24/2026:** Excited to accept an internship offer from the Bonilla Lab at The Rockefeller University, looking forward to a summer of cryo-EM, RNA structural ensemble, and scientific/personal growth! ❄️🔬\
 **04/16/2026:** Delighted to be invited back to CE530 (Molecular Modeling) by Dr. Monje to give a guest lecture on computational modeling of RNA biomolecular condensates! 🫧\
