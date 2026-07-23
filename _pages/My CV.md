@@ -5,6 +5,14 @@ date: 2026-06-30
 category: Jekyll
 layout: post
 ---
+<p>
+  <a class="cv-download-button"
+     href="{{ '/assets/pdf/Peter_CV_2026.pdf' | relative_url }}"
+     download>
+    Download CV as PDF
+  </a>
+</p>
+
 ### Academic Research Experience
 - **Visiting Research Fellow**, Rockefeller University (Host: [Steve Bonilla](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/12052-steve-l-bonilla/)) – May 2026 to Present
 - **Doctoral Candidate**, University at Buffalo – September 2023 to Present
@@ -31,11 +39,11 @@ layout: post
 ### Publications
 **_Research Articles:_**
 
-(1) **Zhang, H.**; Baidya, L.; Nguyen, H. T. Spatiotemporal Heterogeneity Governs Structure and Ion-RNA Interactions in Temperature-Driven RNA Phase Separation. _Submitted_.
+(1) **Zhang, H.**; Baidya, L.; Nguyen, H. T. Temperature-dependent ion partitioning remodels RNA structure and internal organization in condensate. _Submitted_.
 
 (2) Mohanta, D.; **Zhang, H.**; Thirumalai, D.; Nguyen, H. T. Molecular origins of heterogeneous aging and spatial organization of RNA condensate. _Under Review_.
 
-(3) **Zhang, H.**; Maity, H.; Nguyen T. H. Temperature-Dependent Ion Migration Underlies Sequence-Specific RNA Collapse. _Biophys. J._. **2026**, _In Press_. [pdf](https://drive.google.com/file/d/1lj2rA4PI9TI1EFEWOaDB21HaICu4SG9c/view?usp=sharing) 
+(3) **Zhang, H.**; Maity, H.; Nguyen T. H. Temperature-Dependent Ion Migration Underlies Sequence-Specific RNA Collapse. _Biophys. J._. **2026**, _125_, 3456–3470. [pdf](https://drive.google.com/file/d/1lj2rA4PI9TI1EFEWOaDB21HaICu4SG9c/view?usp=sharing) 
  
 (4) Baidya, L.; **Zhang, H.**; Nguyen, H. T. Poly(ADP-Ribose) (PAR) Exhibits Ion-Dependent Structural Properties Distinct from RNA. _Nucleic Acids Res_ **2026**, _54 (6)_, gkag265. [pdf](https://drive.google.com/file/d/1XnAWzWrhvC-rKS__8QTFXUL4xpimZcSt/view?usp=sharing)
 
