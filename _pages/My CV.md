@@ -7,9 +7,9 @@ layout: post
 ---
 <p>
   <a class="cv-download-button"
-     href="{{ '/assets/pdf/Peter_CV_2026.pdf' | relative_url }}"
-     download>
-    Download CV as PDF
+     href="{{ '/assets/Peter_CV_2026.pdf' | relative_url }}"
+     download="Peter_Zhang_CV.pdf">
+    📄 Download CV as PDF
   </a>
 </p>
 
