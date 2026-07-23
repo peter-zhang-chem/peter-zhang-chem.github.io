@@ -53,7 +53,7 @@ document
     } catch (error) {
       console.error(error);
       status.textContent = "Opening the PDF instead…";
-      window.location.href = pdfUrl;
+      // window.location.href = pdfUrl;
     } finally {
       button.disabled = false;
       button.textContent = "↓ Download CV";
