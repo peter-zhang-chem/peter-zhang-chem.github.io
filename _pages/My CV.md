@@ -5,13 +5,61 @@ date: 2026-06-30
 category: Jekyll
 layout: post
 ---
-<p>
-  <a class="cv-download-button"
-     href="{{ '/assets/Peter_CV_2026.pdf' | relative_url }}"
-     download="Peter_Zhang_CV.pdf">
-    📄 Download CV as PDF
-  </a>
-</p>
+
+<button
+  type="button"
+  id="cv-download-button"
+  class="cv-download-button">
+  ↓ Download CV
+</button>
+
+<p id="cv-download-status" class="cv-download-status" aria-live="polite"></p>
+
+<script>
+document
+  .getElementById("cv-download-button")
+  .addEventListener("click", async function () {
+    const button = this;
+    const status = document.getElementById("cv-download-status");
+    const pdfUrl = "{{ '/assets/Peter_CV_2026.pdf' | relative_url }}";
+
+    button.disabled = true;
+    button.textContent = "Preparing download…";
+    status.textContent = "";
+
+    try {
+      const response = await fetch(pdfUrl);
+
+      if (!response.ok) {
+        throw new Error(`PDF request failed: ${response.status}`);
+      }
+
+      const pdfBlob = await response.blob();
+      const blobUrl = URL.createObjectURL(pdfBlob);
+
+      const temporaryLink = document.createElement("a");
+      temporaryLink.href = blobUrl;
+      temporaryLink.download = "Peter_Zhang_CV.pdf";
+
+      document.body.appendChild(temporaryLink);
+      temporaryLink.click();
+      temporaryLink.remove();
+
+      status.textContent = "Download started.";
+
+      setTimeout(function () {
+        URL.revokeObjectURL(blobUrl);
+      }, 1000);
+    } catch (error) {
+      console.error(error);
+      status.textContent = "Opening the PDF instead…";
+      window.location.href = pdfUrl;
+    } finally {
+      button.disabled = false;
+      button.textContent = "↓ Download CV";
+    }
+  });
+</script>
 
 ### Academic Research Experience
 - **Visiting Research Fellow**, Rockefeller University (Host: [Steve Bonilla](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/12052-steve-l-bonilla/)) – May 2026 to Present

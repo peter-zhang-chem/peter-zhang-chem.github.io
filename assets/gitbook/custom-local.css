@@ -3,3 +3,59 @@
  * Its purpose is for users of the theme to be able to add css rules from a blank file
  *   these get simply added to the ones already active in the layout.
  */
+
+ /* CV download button */
+
+.cv-download-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  margin: 8px 0 4px;
+  padding: 11px 18px;
+
+  background-color: #245b78;
+  color: #ffffff;
+
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  border: 1px solid #245b78;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(36, 91, 120, 0.18);
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.18s ease,
+    border-color 0.18s ease,
+    box-shadow 0.18s ease,
+    transform 0.18s ease;
+}
+
+.cv-download-button:hover {
+  background-color: #163f57;
+  border-color: #163f57;
+  box-shadow: 0 7px 16px rgba(36, 91, 120, 0.24);
+  transform: translateY(-1px);
+}
+
+.cv-download-button:focus-visible {
+  outline: 3px solid rgba(36, 91, 120, 0.3);
+  outline-offset: 3px;
+}
+
+.cv-download-button:disabled {
+  cursor: wait;
+  opacity: 0.7;
+  transform: none;
+}
+
+.cv-download-status {
+  min-height: 1.4em;
+  margin: 4px 0 18px;
+  color: #667781;
+  font-size: 0.82rem;
+}
