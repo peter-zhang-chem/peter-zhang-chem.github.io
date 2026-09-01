@@ -6,6 +6,7 @@ category: Jekyll
 layout: post
 ---
 ## 2026
+**08/31/2026:** I am grateful to have the oppourtunity to extend my time at Rockefeller as a visiting research fellow. This will allow me to continue making progress with the RNA Heterogeneity problem and Cryo-EM image analysis development. Let's do it! \
 **05/20/2026:** A portion of my Ph.D. thesis work is now published in the [Biophysical Journal](https://www.cell.com/biophysj/abstract/S0006-3495(26)00366-8?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0006349526003668%3Fshowall%3Dtrue)! [pdf](https://drive.google.com/file/d/1lj2rA4PI9TI1EFEWOaDB21HaICu4SG9c/view?usp=sharing) \
 **05/18/2026:** Started my summer fellowship at the Rockefeller University in the [Bonilla Lab](https://www.bonillalab.org/)! \
 **05/01/2026:** Honored to have received John Rys Scholarship from the University at Buffalo, awarded to graduate student who is engaged in high-quality research in computational or theoretical physical chemistry. \

@@ -62,7 +62,7 @@ document
 </script>
 
 ### Academic Research Experience
-- **Visiting Research Fellow**, Rockefeller University (Host: [Steve Bonilla](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/12052-steve-l-bonilla/)) – May 2026 to Present
+- **Research Fellow**, Rockefeller University (Host: [Steve Bonilla](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/12052-steve-l-bonilla/)) – May 2026 to Present
 - **Doctoral Candidate**, University at Buffalo – September 2023 to Present
 - **Research Fellow**, [XSig](https://www.gettysburg.edu/offices/cross-disciplinary-science-institute/) – Summer 2018, 2019  
 - **Undergraduate Research**, Gettysburg College – January 2018 to May 2021  
@@ -71,6 +71,10 @@ document
 - **Platform Chemistry Intern**, [Enveda](https://enveda.com/) – May 2025 to August 2025  
 
 ### Education
+* __The Rockefeller University__, New York, NY.
+    - Research Fellowship, [Laboratory of RNA Structural Biology and Biophysics](https://www.bonillalab.org/)
+    - Advisor: [Steve L. Bonilla](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/12052-steve-l-bonilla/)
+
 * __State University of New York at Buffalo__, Buffalo, NY.
     - Ph.D. Computational Chemistry, [Bio Simulation Lab](https://biosimlabub.github.io/)
     - Advisor: [Hung T. Nguyen](https://arts-sciences.buffalo.edu/chemistry/faculty/faculty-directory/hung-t--nguyen.html)
