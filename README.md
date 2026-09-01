@@ -92,19 +92,18 @@
       <a href="https://www.cell.com/biophysj/fulltext/S0006-3495(26)00366-8" target="_blank">single-stranded RNA</a>
       and its phase-separation behavior, as well as
       <a href="https://academic-oup-com.gate.lib.buffalo.edu/nar/article/54/6/gkag265/8550794" target="_blank">poly(ADP-ribose)</a>.
-      Across these projects, I am especially interested in connecting molecular structure, dynamics, and function through simulation, structural biology, and data-driven approaches.
     </p>
 
     <p>
-      My long-term goal is to help develop therapies that improve patients' outcomes and quality of life, a motivation shaped in part by seeing diseases such as cancer affect people close to me. In the near term, I hope to work at the intersection of cryo-EM, molecular modeling, and machine learning. I am particularly interested in using molecular dynamics simulations and computational inference to characterize heterogeneous structural ensembles rather than relying solely on a single static structure.
+      My long-term goal is to develop therapies that improve patients' outcomes and quality of life, a motivation shaped in part by seeing diseases such as cancer affect people close to me. In the near term, I hope to work at the intersection of cryo-EM, molecular modeling, and machine learning. I am particularly interested in using molecular dynamics simulations and computational inference to characterize heterogeneous structural ensembles – thinking beyond a single static structure.
     </p>
 
     <p>
-      Ultimately, I want to understand not only what biomolecules look like, but how they move, how those dynamics influence function, and how that knowledge can be leveraged to design better therapeutics.
+      Ultimately, I want to understand how these dynamic molecular machines function in our bodies, and how we can leverage that knowledge to design better therapeutics.
     </p>
 
     <p>
-      If you are looking for a scientist with expertise in computational molecular modeling and cryo-EM, I would love to connect and explore how I might contribute. I am always excited to learn, collaborate across disciplines, and help tackle challenging problems at the interface of computation, structural biology, and therapeutics.
+      If you are looking for a scientist with expertise in computational molecular modeling and cryo-EM, I would love to connect and see how I might contribute. I am always excited to learn, collaborate across disciplines, and help tackle challenging problems at the interface of computation, structural biology, and drug discovery.
     </p>
 
   </div>
